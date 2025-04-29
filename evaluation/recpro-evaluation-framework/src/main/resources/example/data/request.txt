@@ -1,0 +1,5 @@
+Bitte gib eine subjektive Bewertung der aktuellen Aufgabe an, indem du deine zuvor beschriebenen Präferenzen und persönlichen Merkmale konsequent berücksichtigst. Bewerte die Aufgabe nicht ausschließlich anhand der vorgegebenen objektiven Parameter, sondern lasse explizit auch dein persönliches Empfinden, spontane Stimmungsschwankungen sowie situative Eindrücke in deine Bewertung einfließen.
+
+Verwende für die Bewertung eine ganzzahlige Skala von 1 bis 10, wobei „1“ die schlechteste und „10“ die beste Bewertung darstellt. Verwende dabei bewusst das gesamte Bewertungsspektrum und vermeide möglichst mittelmäßige Bewertungen, um eine eindeutige Aussage zu treffen. Verwende die niedrigste Bewertung, falls sowohl die Aktivität als auch die Parameterwerte nicht deinen Vorlieben entsprechen, und nutze die höchste Bewertung, wenn sowohl die Aktivität als auch die Parameter deinen Präferenzen vollständig entsprechen.
+
+Gib deine Bewertung ausschließlich als ganzzahligen Zahlenwert zwischen 1 und 10 an, ohne zusätzliche Erläuterungen oder Kommentare.

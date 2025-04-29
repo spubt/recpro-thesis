@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 170,
+    "target_group": "Öffentlichkeit",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 9500,
+    "budget_location": 4500,
+    "budget_catering": 3500,
+    "budget_invitations": 1500,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 3500,
+    "catering_delivery_schedule": "2025-03-30T09:30:00Z",
+    "catering_provider": "GreenEats Catering",
+    "catering_type": "Bio",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Bewusstseinsbildung",
+    "event_theme": "Nachhaltigkeit",
+    "event_type": "Öffentliche Tagung",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-03-30T10:00:00Z",
+    "event_duration": 9,
+    "participants": 165,
+    "estimated_participants": 170,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 17,
+    "weather": "leicht regnerisch",
+    "parkplatz": 180,
+    "noise": 62
+  },
+  "invitations": {
+    "budget_invitations": 1500,
+    "target_group": "Öffentlichkeit",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 4500,
+    "location": "Ökozentrum Naturkraft",
+    "location_address": "Freiburg",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 16,
+    "weather": "regnerisch",
+    "parkplatz": 180
+  },
+  "logistics": {
+    "logistics_provider": "EcoLogistics GmbH",
+    "logistics_schedule": "2025-03-30T07:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 180
+  },
+  "prepare": {
+    "event_date": "2025-03-30T10:00:00Z",
+    "location": "Ökozentrum Naturkraft",
+    "location_address": "Freiburg",
+    "logistics_provider": "EcoLogistics GmbH",
+    "logistics_schedule": "2025-03-30T07:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 17,
+    "weather": "leicht regnerisch"
+  },
+  "report": {
+    "event_date": "2025-03-30T10:00:00Z",
+    "participants": 165,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

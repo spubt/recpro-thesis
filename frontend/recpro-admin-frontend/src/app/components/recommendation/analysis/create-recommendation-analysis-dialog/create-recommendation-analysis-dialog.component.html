@@ -1,0 +1,64 @@
+<div class="card-header">
+  <h2 mat-dialog-title>Create Feedback</h2>
+</div>
+<mat-dialog-content class="mat-typography">
+  <div class="col-12 col-xl-12">
+
+    <mat-card>
+      <mat-card-content>
+        <div class="row g-3">
+          <h2>Base parameters:</h2>
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-md-3">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>ID</mat-label>
+              <input matInput [(ngModel)]="recommendationAnalysis.id" disabled>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-9">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>Label</mat-label>
+              <input matInput [(ngModel)]="recommendationAnalysis.label">
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-12">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>Description</mat-label>
+              <textarea matInput placeholder="e.g.: 1: don't like, 5 like" [(ngModel)]="recommendationAnalysis.description"></textarea>
+            </mat-form-field>
+          </div>
+
+          <div class="col-6 h-100">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Recommendation Service</mat-label>
+              <mat-select [(ngModel)]="recommendationAnalysis.recommendationService">
+                <mat-option *ngFor="let service of recommendationServices" [value]="service">
+                  {{ service.name }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-6 h-100">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Feedback</mat-label>
+              <mat-select [(ngModel)]="recommendationAnalysis.feedback">
+                <mat-option *ngFor="let feedback of feedbacks" [value]="feedback">
+                  {{ feedback.label }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+        </div><!--end row-->
+
+      </mat-card-content>
+    </mat-card>
+  </div>
+</mat-dialog-content>
+<div class="card-footer">
+  <mat-dialog-actions align="end" >
+    <button mat-stroked-button class="px-4" mat-dialog-close>Cancel</button>
+    <button mat-stroked-button class="px-4" (click)="save()">Submit</button>
+  </mat-dialog-actions>
+</div>

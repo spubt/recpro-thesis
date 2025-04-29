@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>Environmental Parameters ({{activity.name}}):</h2>
+
+<mat-dialog-content class="mat-typography">
+  <div class="row">
+    <div class="col-8">
+      <app-environmental-parameter-configuration-table [parameterConfigurationInput]="configurations"></app-environmental-parameter-configuration-table>
+    </div>
+    <div class="col-4">
+      <app-create-environmental-parameter-configuration [parameters]="parameters" (selectedParameterChange)="addConfiguration($event)" [activity]="activity"></app-create-environmental-parameter-configuration>
+    </div>
+  </div>
+</mat-dialog-content>
+
+<div class="card-footer">
+  <mat-dialog-actions align="end" >
+    <button mat-stroked-button class="px-4" mat-dialog-close>Cancel</button>
+    <button mat-stroked-button class="px-4" (click)="submit()">Submit</button>
+  </mat-dialog-actions>
+</div>

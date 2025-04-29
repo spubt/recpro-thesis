@@ -1,0 +1,12 @@
+<div [ngSwitch]="dimension.parameterType">
+  <div *ngSwitchCase="ParameterType.TEXTUAL">
+    <app-create-textual-recommendation-range [ranges]="getTextualRange()"></app-create-textual-recommendation-range>
+  </div>
+  <div *ngSwitchCase="ParameterType.NUMERIC">
+    <app-create-numeric-recommendation-range [ranges]="getNumericRange()"></app-create-numeric-recommendation-range>
+  </div>
+  <div *ngSwitchCase="ParameterType.DATE">
+    <div>NOT IMPLEMENTED YET</div>
+<!--    <app-create-date-recommendation-range [ranges]="getDateRange()"></app-create-date-recommendation-range>-->
+  </div>
+</div>

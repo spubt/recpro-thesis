@@ -1,0 +1,107 @@
+[
+  {
+    "id": "location_analysis",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "analysis",
+      "label": "Analyse",
+      "description": ""
+    }
+  },
+  {
+    "id": "location_logistics",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "logistics",
+      "label": "Logistik",
+      "description": ""
+    }
+  },
+  {
+    "id": "location_planning",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "planning",
+      "label": "Planung",
+      "description": ""
+    }
+  },
+  {
+    "id": "location_organisation",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "organisation",
+      "label": "Organisation",
+      "description": ""
+    }
+  },
+  {
+    "id": "location_excel",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "excel",
+      "label": "Excel",
+      "description": ""
+    }
+  },
+  {
+    "id": "location_phone",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "phone",
+      "label": "Telefon",
+      "description": ""
+    }
+  },
+  {
+    "id": "location_mail",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "mail",
+      "label": "E-Mail",
+      "description": ""
+    }
+  }
+]

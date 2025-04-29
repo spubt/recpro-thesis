@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 15,
+    "target_group": "Jungunternehmer",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 800,
+    "budget_location": 300,
+    "budget_catering": 400,
+    "budget_invitations": 100,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 400,
+    "catering_delivery_schedule": "2025-04-25T07:30:00Z",
+    "catering_provider": "Campus Catering",
+    "catering_type": "Frühstücksbuffet",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Networking",
+    "event_theme": "Gründung",
+    "event_type": "Meetup",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-04-25T08:00:00Z",
+    "event_duration": 2,
+    "participants": 14,
+    "estimated_participants": 15,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 18,
+    "weather": "sonnig",
+    "parkplatz": 20,
+    "noise": 45
+  },
+  "invitations": {
+    "budget_invitations": 100,
+    "target_group": "Jungunternehmer",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 300,
+    "location": "Creative Space West",
+    "location_address": "Düsseldorf",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 17,
+    "weather": "sonnig",
+    "parkplatz": 20
+  },
+  "logistics": {
+    "logistics_provider": "CampusLogistics",
+    "logistics_schedule": "2025-04-25T06:30:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 20
+  },
+  "prepare": {
+    "event_date": "2025-04-25T08:00:00Z",
+    "location": "Creative Space West",
+    "location_address": "Düsseldorf",
+    "logistics_provider": "CampusLogistics",
+    "logistics_schedule": "2025-04-25T06:30:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 18,
+    "weather": "sonnig"
+  },
+  "report": {
+    "event_date": "2025-04-25T08:00:00Z",
+    "participants": 14,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

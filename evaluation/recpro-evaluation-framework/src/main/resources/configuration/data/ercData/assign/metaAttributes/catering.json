@@ -1,0 +1,107 @@
+[
+  {
+    "id": "catering_planning",
+    "activity": {
+      "id": "catering",
+      "name": "Catering organisieren",
+      "description": "",
+      "bpmsElementId": "catering",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "planning",
+      "label": "Planung",
+      "description": ""
+    }
+  },
+  {
+    "id": "catering_organisation",
+    "activity": {
+      "id": "catering",
+      "name": "Catering organisieren",
+      "description": "",
+      "bpmsElementId": "catering",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "organisation",
+      "label": "Organisation",
+      "description": ""
+    }
+  },
+  {
+    "id": "catering_coordination",
+    "activity": {
+      "id": "catering",
+      "name": "Catering organisieren",
+      "description": "",
+      "bpmsElementId": "catering",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "coordination",
+      "label": "Koordination",
+      "description": ""
+    }
+  },
+  {
+    "id": "catering_supply",
+    "activity": {
+      "id": "catering",
+      "name": "Catering organisieren",
+      "description": "",
+      "bpmsElementId": "catering",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "supply",
+      "label": "Versorgung",
+      "description": ""
+    }
+  },
+  {
+    "id": "catering_event_management_system",
+    "activity": {
+      "id": "catering",
+      "name": "Catering organisieren",
+      "description": "",
+      "bpmsElementId": "catering",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "event_management_system",
+      "label": "Event Management System",
+      "description": ""
+    }
+  },
+  {
+    "id": "catering_mail",
+    "activity": {
+      "id": "catering",
+      "name": "Catering organisieren",
+      "description": "",
+      "bpmsElementId": "catering",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "mail",
+      "label": "E-Mail",
+      "description": ""
+    }
+  },
+  {
+    "id": "catering_phone",
+    "activity": {
+      "id": "catering",
+      "name": "Catering organisieren",
+      "description": "",
+      "bpmsElementId": "catering",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "phone",
+      "label": "Telefon",
+      "description": ""
+    }
+  }
+]

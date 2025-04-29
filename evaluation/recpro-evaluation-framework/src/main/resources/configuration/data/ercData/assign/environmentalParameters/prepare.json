@@ -1,0 +1,62 @@
+[
+  {
+    "id": "prepare-date",
+    "activity": {
+      "id": "prepare",
+      "name": "Event vorbereiten",
+      "description": "",
+      "bpmsElementId": "prepare",
+      "roles": []
+    },
+    "parameter":
+    {
+      "parameterType":"DATE","id":"date","label":"Datum und Uhrzeit","description":"","source":"http://localhost:8085/erc/envParams/date","bpmsAttributeId":"","visibility":"true","defaultValue":"2025-03-19T11:27:08.867494Z"
+    },
+    "source":"http://localhost:8085/erc/envParams/date"
+  },
+  {
+    "id": "prepare-temperature",
+    "activity": {
+      "id": "prepare",
+      "name": "Event vorbereiten",
+      "description": "",
+      "bpmsElementId": "prepare",
+      "roles": []
+    },
+    "parameter":
+    {
+      "id": "temperature",
+      "label": "Temperatur",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "source": "http://localhost:8085/erc/envParams/temperature",
+      "visibility": true,
+      "defaultValue": 20
+    },
+    "source":"http://localhost:8085/erc/envParams/temperature-prepare"
+  },
+  {
+    "id": "prepare-weather",
+    "activity": {
+      "id": "prepare",
+      "name": "Event vorbereiten",
+      "description": "",
+      "bpmsElementId": "prepare",
+      "roles": []
+    },
+    "parameter":
+    {
+      "id": "weather",
+      "label": "Wetterbedingungen",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "source": "http://localhost:8085/erc/envParams/weather",
+      "visibility": true,
+      "defaultValue": "sonnig"
+    },
+    "source":"http://localhost:8085/erc/envParams/weather-prepare"
+  }
+
+]

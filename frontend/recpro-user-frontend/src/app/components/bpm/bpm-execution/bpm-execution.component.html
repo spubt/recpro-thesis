@@ -1,0 +1,43 @@
+<div class="container-2-content">
+
+  <div class="content-fit row g-3">
+    <div class="col-12">
+      <mat-card >
+        <mat-card-content>
+          <div class="row g-3 justify-content-between align-items-center">
+            <div class="col-6">
+              <h5>Processes</h5>
+            </div>
+            <div class="col-6" style="display: grid; grid-template-columns: repeat(3, auto); gap: 5px;">
+              <button mat-stroked-button class="px-4" (click)="deselectCurrentFilter()">
+                <mat-icon class="material-icons-outlined">close</mat-icon>
+                Reset Filter
+              </button>
+              <button mat-stroked-button class="px-4" (click)="deselectCurrentTask()">
+                <mat-icon class="material-icons-outlined">close</mat-icon>
+                Deselect Task
+              </button>
+              <button mat-stroked-button class="px-4" (click)="startProcess()">
+                <mat-icon class="material-icons-outlined" style="font-size: 36px;">arrow_right</mat-icon>
+                Start Process
+              </button>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+
+  <div class="content-fill row g-3">
+    <div class="col-4 col-lg-3">
+      <app-tasklist
+        [tasklistInput]="tasklist"
+        (tasklistEntrySelection)="updateTask($event)"
+      ></app-tasklist>
+    </div>
+    <div class="col-8 col-lg-9">
+      <app-task *ngIf="currentTasklistEntry.id !== undefined" [tasklistEntryInput]="currentTasklistEntry" [tasklist]="tasklist" (claimTask)="updateTaskAndReloadTasklist($event)" (completeTask)="reloadTasklist()"></app-task>
+      <app-recommendation-service-execution *ngIf="currentTasklistEntry.id === undefined" [activeRecommendationService]="tasklist.recommendationServiceModel" (setActiveRecommendationService)="recommendationServiceSelectionChanged($event)"></app-recommendation-service-execution>
+    </div>
+  </div>
+</div>

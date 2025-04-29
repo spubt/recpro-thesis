@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 20,
+    "target_group": "Fachpublikum"
+  },
+  "budget_planning": {
+    "budget_total": 2000,
+    "budget_location": 1000,
+    "budget_catering": 800,
+    "budget_invitations": 200
+  },
+  "catering": {
+    "budget_catering": 800,
+    "catering_delivery_schedule": "2025-03-19T12:00:00Z",
+    "catering_provider": "Local Catering",
+    "catering_type": "Fingerfood"
+  },
+  "location": {
+    "budget_location": 1000,
+    "location": "Konferenzzentrum",
+    "location_address": "Bayreuth"
+  },
+  "concept": {
+    "event_purpose": "Schulung",
+    "event_theme": "Wissenschaft",
+    "event_type": "Seminar"
+  },
+  "execute": {
+    "event_date": "2025-03-19T11:27:08Z",
+    "event_duration": 8,
+    "participants": 18,
+    "estimated_participants": 20
+  },
+  "invitations": {
+    "budget_invitations": 200,
+    "target_group": "Fachpublikum"
+  },
+  "logistics": {
+    "logistics_provider": "Regional Logistics",
+    "logistics_schedule": "2025-03-19T10:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-03-19T11:27:08Z",
+    "location": "Konferenzzentrum",
+    "location_address": "Bayreuth",
+    "logistics_provider": "Regional Logistics",
+    "logistics_schedule": "2025-03-19T10:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-03-19T11:27:08Z",
+    "participants": 18
+  }
+}

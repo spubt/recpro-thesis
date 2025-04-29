@@ -1,0 +1,28 @@
+[
+  {
+    "id": "act-b-binary-1",
+    "activity": {
+      "id":"Activity_04h0vgn","name":"b","description":null,"bpmsElementId":"Activity_04h0vgn","roles":[]
+    },
+    "parameter": {
+      "parameterType":"BINARY","id":"binary-1","label":"Binary Parameter","description":"","bpmsAttributeId":"","defaultValue":true
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "act-b-textual-1",
+    "activity": {
+      "id":"Activity_04h0vgn","name":"b","description":null,"bpmsElementId":"Activity_04h0vgn","roles":[]
+    },
+    "parameter": {
+      "parameterType":"TEXTUAL","id":"textual-1","label":"TEXTUAL Parameter","description":"","bpmsAttributeId":"","defaultValue":"text"
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"2",
+    "width":"5",
+    "height":0
+  }
+]

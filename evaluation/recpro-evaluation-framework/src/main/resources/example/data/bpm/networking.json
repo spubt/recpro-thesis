@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 100,
+    "target_group": "Startup Founders"
+  },
+  "budget_planning": {
+    "budget_total": 4000,
+    "budget_location": 1500,
+    "budget_catering": 2000,
+    "budget_invitations": 500
+  },
+  "catering": {
+    "budget_catering": 2000,
+    "catering_delivery_schedule": "2025-05-10T12:00:00Z",
+    "catering_provider": "Quick Snacks",
+    "catering_type": "Fingerfood"
+  },
+  "location": {
+    "budget_location": 1500,
+    "location": "Hotel Conference Room",
+    "location_address": "Munich"
+  },
+  "concept": {
+    "event_purpose": "Networking",
+    "event_theme": "Startup Innovations",
+    "event_type": "Networking Event"
+  },
+  "execute": {
+    "event_date": "2025-05-10T18:00:00Z",
+    "event_duration": 3,
+    "participants": 90,
+    "estimated_participants": 100
+  },
+  "invitations": {
+    "budget_invitations": 500,
+    "target_group": "Startup Founders"
+  },
+  "logistics": {
+    "logistics_provider": "Local Logistics",
+    "logistics_schedule": "2025-05-10T16:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-05-10T18:00:00Z",
+    "location": "Hotel Conference Room",
+    "location_address": "Munich",
+    "logistics_provider": "Local Logistics",
+    "logistics_schedule": "2025-05-10T16:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-05-10T18:00:00Z",
+    "participants": 90
+  }
+}

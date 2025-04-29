@@ -1,0 +1,101 @@
+[ {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "event_2",
+  "rating" : 4.0
+}, {
+  "mail" : "sebastian.petter@uni-bayreuth.de",
+  "activityId" : "budget_planning",
+  "event" : "event_1",
+  "rating" : 8.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "event_2",
+  "rating" : 6.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "event_1",
+  "rating" : 9.0
+}, {
+  "mail" : "sebastian.petter@uni-bayreuth.de",
+  "activityId" : "logistics",
+  "event" : "event_1",
+  "rating" : 4.0
+}, {
+  "mail" : "sebastian.petter@uni-bayreuth.de",
+  "activityId" : "analysis",
+  "event" : "event_2",
+  "rating" : 8.0
+}, {
+  "mail" : "nobby.nic@uni-bayreuth.de",
+  "activityId" : "concept",
+  "event" : "event_2",
+  "rating" : 6.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "event_2",
+  "rating" : 4.0
+}, {
+  "mail" : "nobby.nic@uni-bayreuth.de",
+  "activityId" : "execute",
+  "event" : "event_2",
+  "rating" : 7.0
+}, {
+  "mail" : "nobby.nic@uni-bayreuth.de",
+  "activityId" : "invitations",
+  "event" : "event_2",
+  "rating" : 4.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "event_1",
+  "rating" : 9.0
+}, {
+  "mail" : "nobby.nic@uni-bayreuth.de",
+  "activityId" : "location",
+  "event" : "event_1",
+  "rating" : 4.0
+}, {
+  "mail" : "sebastian.petter@uni-bayreuth.de",
+  "activityId" : "prepare",
+  "event" : "event_1",
+  "rating" : 4.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "event_1",
+  "rating" : 8.0
+}, {
+  "mail" : "sebastian.petter@uni-bayreuth.de",
+  "activityId" : "report",
+  "event" : "event_2",
+  "rating" : 4.0
+}, {
+  "mail" : "sebastian.petter@uni-bayreuth.de",
+  "activityId" : "logistics",
+  "event" : "event_2",
+  "rating" : 7.0
+}, {
+  "mail" : "nobby.nic@uni-bayreuth.de",
+  "activityId" : "report",
+  "event" : "event_1",
+  "rating" : 7.0
+}, {
+  "mail" : "sebastian.petter@uni-bayreuth.de",
+  "activityId" : "location",
+  "event" : "event_2",
+  "rating" : 9.0
+}, {
+  "mail" : "nobby.nic@uni-bayreuth.de",
+  "activityId" : "analysis",
+  "event" : "event_1",
+  "rating" : 8.0
+}, {
+  "mail" : "nobby.nic@uni-bayreuth.de",
+  "activityId" : "invitations",
+  "event" : "event_1",
+  "rating" : 4.0
+} ]

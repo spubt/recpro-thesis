@@ -1,0 +1,42 @@
+services:
+  mysql:
+    image: 'mysql:8.0'
+    environment:
+      - 'MYSQL_DATABASE=recpro'
+      - 'MYSQL_PASSWORD=recpro'
+      - 'MYSQL_ROOT_PASSWORD=root'
+      - 'MYSQL_USER=recpro'
+#    network_mode: host
+    networks:
+      - recpro
+    ports:
+      - '3306:3306'
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: keycloak
+    restart: always
+#    network_mode: host
+    networks:
+      - recpro
+    ports:
+      - "8081:8080"
+    environment:
+#      KC_BOOTSTRAP_ADMIN_USERNAME: admin
+#      KC_BOOTSTRAP_ADMIN_PASSWORD: admin
+      KC_DB: mysql
+      KC_DB_URL: jdbc:mysql://mysql:3306/recpro
+      KEYCLOAK_FRONTEND_URL: http://localhost:8081
+      KC_DB_USERNAME: recpro
+      KC_DB_PASSWORD: recpro
+    command: ["start-dev", "--import-realm"]
+
+    depends_on:
+      - mysql
+    volumes:
+      - ./docker/keycloak/recpro-realm.json:/opt/keycloak/data/import/recpro-realm.json
+      - ./docker/keycloak/master-realm.json:/opt/keycloak/data/import/master-realm.json
+
+
+networks:
+  recpro:
+    driver: bridge

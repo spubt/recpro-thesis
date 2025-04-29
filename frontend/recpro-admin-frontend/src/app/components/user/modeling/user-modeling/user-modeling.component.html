@@ -1,0 +1,33 @@
+<div class="container-3-content">
+  <div class="content-fit row g-3">
+    <h6 class="mb-0 text-uppercase">User Modeling</h6>
+    <hr>
+  </div>
+
+  <div class="content-fit row g-3">
+    <mat-card>
+      <mat-card-content>
+        <div class="d-flex flex-row gap-3 align-items-center justify-content-between">
+          <div class="">
+            <h5 class="">Users</h5>
+          </div>
+          <div>
+            <button mat-icon-button [matMenuTriggerFor]="menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item (click)="createUser()">
+                <mat-icon class="material-icons-outlined">add</mat-icon>
+                <span>Create User</span>
+              </button>
+            </mat-menu>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="row g-3 full-height-card">
+    <app-user-table [userInput]="users" (userUpdated)="getData()"></app-user-table>
+  </div>
+
+</div>

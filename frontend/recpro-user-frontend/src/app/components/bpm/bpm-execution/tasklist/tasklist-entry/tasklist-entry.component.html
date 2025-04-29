@@ -1,0 +1,33 @@
+<mat-card [ngClass]="{ 'highlighted-card': isHighlighted, 'default-card': !isHighlighted }">
+
+  <!--  {{task.id}}-->
+  <!--  {{task.bpmsTaskId}}-->
+  <div class="row" style="margin: 10px;">
+    <div class="col-11 col-md-10 col-sm-6">
+      <div style="font-size: 18px"><strong>{{tasklistEntry.recproTaskInstance.activity.name }}</strong></div>
+    </div>
+    <div class="col-1 col-md-2 col-sm-6">
+      {{tasklistEntry.priority}}
+    </div>
+  </div>
+  <div class="row" style="margin-left: 10px; margin-right: 10px">
+    <div class="col-12">
+<!--      {{tasklistEntry.recproTaskInstance.recproProcessInstance.process.name}}-->
+    </div>
+  </div>
+  <div class="row" style="margin-left: 10px; margin-right: 10px">
+    <div class="col-12">
+      Created: {{tasklistEntry.recproTaskInstance.createTime | date: 'short'}}
+    </div>
+  </div>
+  <div class="row" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+    <div class="col-12">
+      Assignee: {{tasklistEntry.recproTaskInstance.assigneeId}}
+    </div>
+  </div>
+  <div class="row" style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;" *ngIf="isPotentialRating()">
+    <div class="col-12">
+      Potential rating: {{getPotentialRating()}}
+    </div>
+  </div>
+</mat-card>

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "sebastian_petter",
+    "email": "sebastian.petter@uni-bayreuth.de",
+    "firstName": "Sebastian",
+    "lastName": "Petter",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "e897a3dc-893f-4b32-98be-46517a93ff29",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "0fd048c8-f2c2-45bc-a502-2c3a69dd59d3",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "alexander_berger",
+    "email": "alexander.berger@recpro.com.de",
+    "firstName": "Alexander",
+    "lastName": "Berger",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "alexander_berger",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "alexander_berger",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "fabian_muller",
+    "email": "fabian.muller@recpro.com.de",
+    "firstName": "Fabian",
+    "lastName": "Muller",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "fabian_muller",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "fabian_muller",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "max_mustermann",
+    "email": "max.mustermann@recpro.com.de",
+    "firstName": "Max",
+    "lastName": "Mustermann",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "max_mustermann",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "max_mustermann",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "julia_fischer",
+    "email": "julia.fischer@recpro.com.de",
+    "firstName": "Julia",
+    "lastName": "Fischer",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "julia_fischer",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "julia_fischer",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "kahtarina_schneider",
+    "email": "katharina.schneider@recpro.com.de",
+    "firstName": "Katharina",
+    "lastName": "Schneider",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "katharina_schneider",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "katharina_schneider",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "laura_beckmann",
+    "email": "laura.beckmann@recpro.com.de",
+    "firstName": "Laura",
+    "lastName": "Beckmann",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "laura_beckmann",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "laura_beckmann",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "lisa_baumann",
+    "email": "lisa.baumann@recpro.com.de",
+    "firstName": "Lisa",
+    "lastName": "Baumann",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "lisa_baumann",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "lisa_baumann",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "marie_sonnenschein",
+    "email": "marie.sonnenschein@recpro.com.de",
+    "firstName": "Marie",
+    "lastName": "Sonnenschein",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "marie_sonnenschein",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "marie_sonnenschein",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "markus_lehmann",
+    "email": "markus.lehmann@recpro.com.de",
+    "firstName": "Markus",
+    "lastName": "Lehmann",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "markus_lehmann",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "markus_lehmann",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "nobby_nic",
+    "email": "nobby.nic@recpro.com.de",
+    "firstName": "Nobby",
+    "lastName": "Nic",
+    "createdAt": "2025-03-22T07:07:25.398Z",
+    "updatedAt": "2025-03-22T07:07:25.398Z",
+    "lastLogin": "2025-03-22T07:07:25.398Z",
+    "gender": "MALE",
+    "roles": [],
+    "settings": {
+      "id": "nobby_nic",
+      "language": "EN"
+    },
+    "demographicUserInformation": {
+      "id": "nobby_nic",
+      "birthDate": "2025-03-22T07:07:25.398Z"
+    },
+    "status": "ACTIVE"
+  }
+]

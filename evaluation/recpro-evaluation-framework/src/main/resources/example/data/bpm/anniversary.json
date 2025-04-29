@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 200,
+    "target_group": "Company Employees and Guests"
+  },
+  "budget_planning": {
+    "budget_total": 15000,
+    "budget_location": 8000,
+    "budget_catering": 6000,
+    "budget_invitations": 1000
+  },
+  "catering": {
+    "budget_catering": 6000,
+    "catering_delivery_schedule": "2025-12-20T18:00:00Z",
+    "catering_provider": "Luxury Dining",
+    "catering_type": "Gala Dinner"
+  },
+  "location": {
+    "budget_location": 8000,
+    "location": "Luxury Hotel",
+    "location_address": "Berlin"
+  },
+  "concept": {
+    "event_purpose": "Celebration",
+    "event_theme": "Company Anniversary",
+    "event_type": "Party"
+  },
+  "execute": {
+    "event_date": "2025-12-20T19:00:00Z",
+    "event_duration": 5,
+    "participants": 180,
+    "estimated_participants": 200
+  },
+  "invitations": {
+    "budget_invitations": 1000,
+    "target_group": "Company Employees and Guests"
+  },
+  "logistics": {
+    "logistics_provider": "Exclusive Events Logistics",
+    "logistics_schedule": "2025-12-20T17:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-12-20T19:00:00Z",
+    "location": "Luxury Hotel",
+    "location_address": "Berlin",
+    "logistics_provider": "Exclusive Events Logistics",
+    "logistics_schedule": "2025-12-20T17:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-12-20T19:00:00Z",
+    "participants": 180
+  }
+}

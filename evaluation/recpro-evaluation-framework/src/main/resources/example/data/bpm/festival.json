@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 1000,
+    "target_group": "Local Community"
+  },
+  "budget_planning": {
+    "budget_total": 50000,
+    "budget_location": 25000,
+    "budget_catering": 15000,
+    "budget_invitations": 10000
+  },
+  "catering": {
+    "budget_catering": 15000,
+    "catering_delivery_schedule": "2025-08-20T12:00:00Z",
+    "catering_provider": "Cultural Cuisine Catering",
+    "catering_type": "Ethnic Foods"
+  },
+  "location": {
+    "budget_location": 25000,
+    "location": "City Park",
+    "location_address": "Leipzig"
+  },
+  "concept": {
+    "event_purpose": "Cultural Celebration",
+    "event_theme": "Cultural Diversity",
+    "event_type": "Festival"
+  },
+  "execute": {
+    "event_date": "2025-08-20T10:00:00Z",
+    "event_duration": 10,
+    "participants": 950,
+    "estimated_participants": 1000
+  },
+  "invitations": {
+    "budget_invitations": 10000,
+    "target_group": "Local Community"
+  },
+  "logistics": {
+    "logistics_provider": "City Wide Events",
+    "logistics_schedule": "2025-08-20T08:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-08-20T10:00:00Z",
+    "location": "City Park",
+    "location_address": "Leipzig",
+    "logistics_provider": "City Wide Events",
+    "logistics_schedule": "2025-08-20T08:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-08-20T10:00:00Z",
+    "participants": 950
+  }
+}

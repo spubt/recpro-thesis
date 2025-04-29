@@ -1,0 +1,33 @@
+<div class="">
+  <div class="row ">
+    <mat-card>
+      <div class="container-auto-fill-auto">
+        <mat-card-header class="card-header content-fit">
+          Add existing:
+        </mat-card-header>
+        <mat-card-content class="content-fill card-content">
+          <div class="row">
+            <div class="col-8">
+              <mat-form-field appearance="outline">
+                <mat-label>Select Metaattribute</mat-label>
+                <mat-select [(ngModel)]="selectedAttribute">
+                  <mat-option *ngFor="let meta of metaAttributes" [value]="meta">
+                    {{ meta.label }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-4">
+              <div class="example-button-container">
+              <button mat-fab extended style="background-color: lightgray; top: 5px;" (click)="addSelectedAttribute()">
+                <mat-icon>add</mat-icon>
+                Add
+              </button>
+              </div>
+            </div>
+          </div>
+        </mat-card-content>
+      </div>
+    </mat-card>
+  </div>
+</div>

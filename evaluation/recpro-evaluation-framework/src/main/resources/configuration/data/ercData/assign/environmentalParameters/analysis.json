@@ -1,0 +1,15 @@
+[
+  {
+    "id": "analysis-date",
+    "activity":
+    {
+      "id":"analysis","name":"Zielgruppen-analyse durchführen","description":null,"bpmsElementId":"analysis","roles":[]
+    },
+    "parameter":
+    {
+      "parameterType":"DATE","id":"date","label":"Datum und Uhrzeit","description":"","source":"http://localhost:8085/erc/envParams/date","bpmsAttributeId":"","visibility":"true","defaultValue":"2025-03-19T11:27:08.867494Z"
+    },
+    "source":"http://localhost:8085/erc/envParams/date"
+  }
+
+]

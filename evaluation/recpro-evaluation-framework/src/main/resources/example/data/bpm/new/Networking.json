@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 150,
+    "target_group": "Privatpersonen",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 7000,
+    "budget_location": 3500,
+    "budget_catering": 2500,
+    "budget_invitations": 1000,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 2500,
+    "catering_delivery_schedule": "2025-03-19T13:30:00Z",
+    "catering_provider": "EventCuisine AG",
+    "catering_type": "Buffet",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Networking",
+    "event_theme": "Nachhaltigkeit",
+    "event_type": "Workshop",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-03-20T14:00:00Z",
+    "event_duration": 8,
+    "participants": 140,
+    "estimated_participants": 150,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 18,
+    "weather": "regnerisch",
+    "parkplatz": 150,
+    "noise": 65
+  },
+  "invitations": {
+    "budget_invitations": 1000,
+    "target_group": "Privatpersonen",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 3500,
+    "location": "Eventhalle Mitte",
+    "location_address": "Berlin",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 16,
+    "weather": "bewölkt",
+    "parkplatz": 150
+  },
+  "logistics": {
+    "logistics_provider": "CityLogistics",
+    "logistics_schedule": "2025-03-20T10:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 150
+  },
+  "prepare": {
+    "event_date": "2025-03-20T14:00:00Z",
+    "location": "Eventhalle Mitte",
+    "location_address": "Berlin",
+    "logistics_provider": "CityLogistics",
+    "logistics_schedule": "2025-03-20T10:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 16,
+    "weather": "bewölkt"
+  },
+  "report": {
+    "event_date": "2025-03-20T14:00:00Z",
+    "participants": 140,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

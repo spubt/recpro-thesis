@@ -1,0 +1,65 @@
+[
+  {
+    "id": "act-a-numeric-1",
+    "activity": {
+      "id": "Activity_01se5p3",
+      "name": "A",
+      "description": null,
+      "bpmsElementId": "Activity_01se5p3",
+      "roles": []
+    },
+    "parameter": {
+      "parameterType": "NUMERIC",
+      "id": "numeric-1",
+      "label": "Numeric Parameter",
+      "description": "",
+      "source": "http://localhost:8085/erc/envParams/numeric-1",
+      "bpmsAttributeId": "",
+      "visibility": "true",
+      "defaultValue": 42.0
+    },
+    "source": "http://localhost:8085/erc/envParams/numeric-test"
+  },
+  {
+    "id": "act-a-textual-1",
+    "activity": {
+      "id": "Activity_01se5p3",
+      "name": "A",
+      "description": null,
+      "bpmsElementId": "Activity_01se5p3",
+      "roles": []
+    },
+    "parameter": {
+      "parameterType": "TEXTUAL",
+      "id": "textual-1",
+      "label": "TEXTUAL Parameter",
+      "description": "",
+      "source": "http://localhost:8085/erc/envParams/textual-1",
+      "bpmsAttributeId": "",
+      "visibility": "true",
+      "defaultValue": "TEXT"
+    },
+    "source": "http://localhost:8085/erc/envParams/textual-test"
+  },
+  {
+    "id": "act-a-date-1",
+    "activity": {
+      "id": "Activity_01se5p3",
+      "name": "A",
+      "description": null,
+      "bpmsElementId": "Activity_01se5p3",
+      "roles": []
+    },
+    "parameter": {
+      "parameterType": "DATE",
+      "id": "date-1",
+      "label": "DATE",
+      "description": "",
+      "source": "http://localhost:8085/erc/envParams/date-1",
+      "bpmsAttributeId": "",
+      "visibility": "true",
+      "defaultValue": "2025-03-19T11:27:08.867494Z"
+    },
+    "source": "http://localhost:8085/erc/envParams/date-test"
+  }
+]

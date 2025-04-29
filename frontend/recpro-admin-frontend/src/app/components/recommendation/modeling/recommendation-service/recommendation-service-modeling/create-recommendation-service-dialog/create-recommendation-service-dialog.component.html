@@ -1,0 +1,65 @@
+<div class="card-header">
+  <h2 mat-dialog-title>Create RecommendationService</h2>
+</div>
+<mat-dialog-content class="mat-typography">
+  <div class="col-12 col-xl-12">
+
+    <mat-card>
+      <mat-card-content>
+        <div class="row g-3">
+          <div class="col-12 col-md-6">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>Label</mat-label>
+              <input matInput [(ngModel)]="recommendationServiceModel.name">
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-3">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Type</mat-label>
+              <mat-select [(ngModel)]="recommendationServiceModel.recommendationType">
+                <mat-option *ngFor="let type of recommendationServiceTypes" [value]="type">
+                  {{ type }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-3">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>ID</mat-label>
+              <input matInput placeholder="Will be automatically generated" [(ngModel)]="recommendationServiceModel.id" disabled="true">
+            </mat-form-field>
+          </div>
+        </div><!--end row-->
+        <div class="row g-1">
+          <div class="col-12">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>Description</mat-label>
+              <textarea matInput [(ngModel)]="recommendationServiceModel.description"></textarea>
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="row g-1">
+          <div class="col-12">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>URL</mat-label>
+              <input matInput [(ngModel)]="recommendationServiceModel.url">
+            </mat-form-field>
+          </div>
+        </div>
+
+        <div class="row g-3" style="margin-top: 20px;">
+          <h2>Dimensions:</h2>
+          <div>
+            <app-recommendation-service-dimensions [recommendationService]="recommendationServiceModel"></app-recommendation-service-dimensions>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</mat-dialog-content>
+<div class="card-footer">
+  <mat-dialog-actions align="end" >
+    <button mat-stroked-button class="px-4" mat-dialog-close>Cancel</button>
+    <button mat-stroked-button class="px-4" (click)="save()">Submit</button>
+  </mat-dialog-actions>
+</div>

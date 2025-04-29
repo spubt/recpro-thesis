@@ -1,0 +1,52 @@
+<div class="container-3-content">
+  <div class="full-height-card">
+    <mat-card class="container-auto-fill-auto" >
+      <div class="container-auto-fill-auto">
+        <mat-card-header class="card-header content-fit">
+          <div class="row" style="width: 100%; height: 100%">
+            <div class="col-10">
+              <h5>Available recommendation services:</h5>
+            </div>
+          </div>
+        </mat-card-header>
+        <mat-card-content class="content-fill card-content">
+          <div class="row">
+            <div class="col-5" *ngFor="let service of recommendationServices" style="margin: 10px">
+              <mat-card style="height: 100%;" [ngClass]="{'green-card': service.id === activeRecommendationService?.id}" (click)="useRecommendationService(service)">
+                <mat-card-header style="text-align: center; min-width: 100%;">
+                  <div style="text-align: center; width: 100%">
+                    <mat-card-title>
+                      {{ service.name }}
+                    </mat-card-title>
+                  </div>
+
+                </mat-card-header>
+                <mat-card-content style="text-align: center">
+                  <div style="text-align: center; min-height: 52px; margin-top: 20px;">
+                    <mat-icon class="material-icons-outlined" style="font-size: 50px; height: 50px; width: 50px;">
+                      filter_alt
+                    </mat-icon>
+                  </div>
+                  <p>
+                    {{ service.description }}
+                  </p>
+                </mat-card-content>
+              </mat-card>
+            </div>
+          </div>
+        </mat-card-content>
+
+        <mat-card-footer class="card-footer content-fit">
+          <mat-card-actions  align="end">
+            <div class="row" style="width: 100%;">
+              <div class="clr-col-12">
+                <div class="btn-group btn-primary" style="float: right">
+                </div>
+              </div>
+            </div>
+          </mat-card-actions>
+        </mat-card-footer>
+      </div>
+    </mat-card>
+  </div>
+</div>

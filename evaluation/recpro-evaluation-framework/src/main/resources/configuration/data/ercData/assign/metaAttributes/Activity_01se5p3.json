@@ -1,0 +1,32 @@
+[
+  {
+    "id": "act-a-meta-a",
+    "activity": {
+      "id": "Activity_01se5p3",
+      "name": "A",
+      "description": null,
+      "bpmsElementId": "Activity_01se5p3",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "meta-a",
+      "label": "MetaA",
+      "description": ""
+    }
+  },
+  {
+    "id": "act-a-meta-b",
+    "activity": {
+      "id": "Activity_01se5p3",
+      "name": "A",
+      "description": null,
+      "bpmsElementId": "Activity_01se5p3",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "meta-b",
+      "label": "MetaB",
+      "description": ""
+    }
+  }
+]

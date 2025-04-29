@@ -1,0 +1,28 @@
+<div class="container-3-content">
+  <div class="full-height-card">
+    <mat-card class="container-auto-fill-auto" >
+      <div class="container-auto-fill-auto">
+        <mat-card-header class="card-header content-fit">
+          <h5>Tasklist</h5>
+        </mat-card-header>
+        <mat-card-content class="content-fill card-content">
+
+          <div *ngFor="let entry of tasklist.entries | sortTasklistByPosition ">
+            <app-tasklist-entry [tasklistEntry]="entry" (click)="selectTask(entry)"></app-tasklist-entry>
+<!--            {{task.id}} INSTANCE: {{task.recproTaskInstance.activity.name}}-->
+<!--            <app-tasklist-detail-->
+<!--              [task]="task" (click)="selectTask(task)"-->
+<!--              [activity]="getActivity(task.activityId)"-->
+<!--              [process]="getProcess(task.processDefinitionId)"-->
+<!--              [user]="getUser(task.assigneeId)"></app-tasklist-detail>-->
+          </div>
+        </mat-card-content>
+        <mat-card-footer class="card-footer content-fit">
+          <mat-card-actions  align="end">
+
+          </mat-card-actions>
+        </mat-card-footer>
+      </div>
+    </mat-card>
+  </div>
+</div>

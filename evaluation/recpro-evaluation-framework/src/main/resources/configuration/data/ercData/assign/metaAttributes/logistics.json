@@ -1,0 +1,107 @@
+[
+  {
+    "id": "logistics_logistics",
+    "activity": {
+      "id": "logistics",
+      "name": "Logistik organisieren",
+      "description": "",
+      "bpmsElementId": "logistics",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "logistics",
+      "label": "Logistik",
+      "description": ""
+    }
+  },
+  {
+    "id": "logistics_planning",
+    "activity": {
+      "id": "logistics",
+      "name": "Logistik organisieren",
+      "description": "",
+      "bpmsElementId": "logistics",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "planning",
+      "label": "Planung",
+      "description": ""
+    }
+  },
+  {
+    "id": "logistics_organisation",
+    "activity": {
+      "id": "logistics",
+      "name": "Logistik organisieren",
+      "description": "",
+      "bpmsElementId": "logistics",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "organisation",
+      "label": "Organisation",
+      "description": ""
+    }
+  },
+  {
+    "id": "logistics_coordination",
+    "activity": {
+      "id": "logistics",
+      "name": "Logistik organisieren",
+      "description": "",
+      "bpmsElementId": "logistics",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "coordination",
+      "label": "Koordination",
+      "description": ""
+    }
+  },
+  {
+    "id": "logistics_excel",
+    "activity": {
+      "id": "logistics",
+      "name": "Logistik organisieren",
+      "description": "",
+      "bpmsElementId": "logistics",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "excel",
+      "label": "Excel",
+      "description": ""
+    }
+  },
+  {
+    "id": "logistics_mail",
+    "activity": {
+      "id": "logistics",
+      "name": "Logistik organisieren",
+      "description": "",
+      "bpmsElementId": "logistics",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "mail",
+      "label": "E-Mail",
+      "description": ""
+    }
+  },
+  {
+    "id": "logistics_phone",
+    "activity": {
+      "id": "logistics",
+      "name": "Logistik organisieren",
+      "description": "",
+      "bpmsElementId": "logistics",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "phone",
+      "label": "Telefon",
+      "description": ""
+    }
+  }
+]

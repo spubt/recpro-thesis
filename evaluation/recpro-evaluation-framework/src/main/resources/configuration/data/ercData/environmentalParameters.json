@@ -1,0 +1,53 @@
+[
+
+  {
+    "id": "parkplatz",
+    "label": "Parkplatzverfügbarkeit",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "source": "http://localhost:8085/erc/envParams/parkplatz",
+    "visibility": true,
+    "defaultValue": 42
+  },
+  {
+    "id": "noise",
+    "label": "Lärmpegel",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "source": "http://localhost:8085/erc/envParams/noise",
+    "visibility": true,
+    "defaultValue": 42
+  },
+  {
+    "id": "temperature",
+    "label": "Temperatur",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "source": "http://localhost:8085/erc/envParams/temperature",
+    "visibility": true,
+    "defaultValue": 20
+  },
+  {
+    "id": "date",
+    "label": "Datum und Uhrzeit",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "DATE",
+    "source": "http://localhost:8085/erc/envParams/date",
+    "visibility": true,
+    "defaultValue": "2025-03-19T11:27:08.867494Z"
+  },
+  {
+    "id": "weather",
+    "label": "Wetterbedingungen",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "source": "http://localhost:8085/erc/envParams/weather",
+    "visibility": true,
+    "defaultValue": "sonnig"
+  }
+]

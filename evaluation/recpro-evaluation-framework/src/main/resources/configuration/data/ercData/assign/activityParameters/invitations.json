@@ -1,0 +1,38 @@
+[
+  {
+    "id": "invitations-budget_invitations",
+    "activity": {
+      "id":"invitations","name":"Einladungen erstellen und versenden","description":null,"bpmsElementId":"invitations","roles":[]
+    },
+    "parameter": {
+      "id": "budget_invitations",
+      "label": "Budget für Einladungen",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 0
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "invitations-target_group",
+    "activity": {
+      "id":"invitations","name":"Einladungen erstellen und versenden","description":null,"bpmsElementId":"invitations","roles":[]
+    },
+    "parameter": {
+      "id": "target_group",
+      "label": "Zielgruppe",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  }
+]

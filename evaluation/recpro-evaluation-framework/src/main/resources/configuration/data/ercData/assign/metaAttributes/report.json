@@ -1,0 +1,92 @@
+[
+  {
+    "id": "report_analysis",
+    "activity": {
+      "id": "report",
+      "name": "Abschlussbericht erstellen",
+      "description": "",
+      "bpmsElementId": "report",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "analysis",
+      "label": "Analyse",
+      "description": ""
+    }
+  },
+  {
+    "id": "report_finance",
+    "activity": {
+      "id": "report",
+      "name": "Abschlussbericht erstellen",
+      "description": "",
+      "bpmsElementId": "report",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "finance",
+      "label": "Finanzen",
+      "description": ""
+    }
+  },
+  {
+    "id": "report_documentation",
+    "activity": {
+      "id": "report",
+      "name": "Abschlussbericht erstellen",
+      "description": "",
+      "bpmsElementId": "report",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "documentation",
+      "label": "Dokumentation",
+      "description": ""
+    }
+  },
+  {
+    "id": "report_excel",
+    "activity": {
+      "id": "report",
+      "name": "Abschlussbericht erstellen",
+      "description": "",
+      "bpmsElementId": "report",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "excel",
+      "label": "Excel",
+      "description": ""
+    }
+  },
+  {
+    "id": "report_event_management_system",
+    "activity": {
+      "id": "report",
+      "name": "Abschlussbericht erstellen",
+      "description": "",
+      "bpmsElementId": "report",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "event_management_system",
+      "label": "Event Management System",
+      "description": ""
+    }
+  },
+  {
+    "id": "report_word",
+    "activity": {
+      "id": "report",
+      "name": "Abschlussbericht erstellen",
+      "description": "",
+      "bpmsElementId": "report",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "word",
+      "label": "Word",
+      "description": ""
+    }
+  }
+]

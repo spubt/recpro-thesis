@@ -1,0 +1,59 @@
+<div class="container-3-content">
+  <div class="content-fit row g-3">
+    <h6 class="mb-0 text-uppercase">Recommendation Analysis</h6>
+    <hr>
+  </div>
+
+  <div class="content-fit row g-3">
+    <mat-card>
+      <mat-card-content>
+        <div class="d-flex flex-row gap-3 align-items-center justify-content-between">
+          <div class="">
+            <h5 class="">Overview</h5>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <button mat-menu-item (click)="addAnalysis()">
+                <mat-icon class="material-icons-outlined">add</mat-icon>
+              </button>
+            </div>
+            <div class="col-2">
+              <button mat-menu-item (click)="deleteSelected()">
+                <mat-icon class="material-icons-outlined">delete</mat-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="row g-3 full-height-card">
+    <div class="container-3-content">
+      <div class="row g-3 full-height-card">
+        <mat-card class="container-auto-fill-auto" >
+          <div class="container-auto-fill-auto col-12">
+            <mat-card-header class="card-header content-fit">
+              <mat-form-field appearance="outline">
+                <mat-label>Filter</mat-label>
+                <input matInput  #input>
+              </mat-form-field>
+            </mat-card-header>
+            <mat-card-content class="content-fill card-content">
+
+              <div class="col-6" *ngFor="let analysis of analysis">
+                <app-histogram [analysisInput]="analysis"></app-histogram>
+              </div>
+
+            </mat-card-content>
+            <mat-card-footer class="card-footer content-fit">
+              <mat-card-actions  align="end">
+
+              </mat-card-actions>
+            </mat-card-footer>
+          </div>
+        </mat-card>
+      </div>
+
+    </div>
+  </div>
+</div>

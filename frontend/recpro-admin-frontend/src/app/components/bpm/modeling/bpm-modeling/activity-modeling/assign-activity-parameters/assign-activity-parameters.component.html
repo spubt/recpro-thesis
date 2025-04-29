@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>Activityparameters ({{activity.name}}):</h2>
+
+<mat-dialog-content class="mat-typography">
+  <div class="row">
+    <div class="col-8">
+      <app-activity-parameter-configuration-table [activityParameterConfigurationInput]="activityParameterConfigurations"></app-activity-parameter-configuration-table>
+    </div>
+    <div class="col-4">
+      <app-create-activity-parameter-configuration [activityParameters]="activityParameters" (selectedActivityParameterChange)="addActivityParameterConfiguration($event)" [activity]="activity"></app-create-activity-parameter-configuration>
+    </div>
+  </div>
+</mat-dialog-content>
+
+<div class="card-footer">
+  <mat-dialog-actions align="end" >
+    <button mat-stroked-button class="px-4" mat-dialog-close>Cancel</button>
+    <button mat-stroked-button class="px-4" (click)="submit()">Submit</button>
+  </mat-dialog-actions>
+</div>

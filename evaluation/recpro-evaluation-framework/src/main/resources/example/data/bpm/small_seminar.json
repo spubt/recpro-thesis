@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 30,
+    "target_group": "Marketing Professionals"
+  },
+  "budget_planning": {
+    "budget_total": 1000,
+    "budget_location": 400,
+    "budget_catering": 500,
+    "budget_invitations": 100
+  },
+  "catering": {
+    "budget_catering": 500,
+    "catering_delivery_schedule": "2025-04-15T12:00:00Z",
+    "catering_provider": "Cafe Delight",
+    "catering_type": "Snacks and Coffee"
+  },
+  "location": {
+    "budget_location": 400,
+    "location": "Business Center",
+    "location_address": "Berlin"
+  },
+  "concept": {
+    "event_purpose": "Networking",
+    "event_theme": "Digital Marketing",
+    "event_type": "Workshop"
+  },
+  "execute": {
+    "event_date": "2025-04-15T09:00:00Z",
+    "event_duration": 4,
+    "participants": 25,
+    "estimated_participants": 30
+  },
+  "invitations": {
+    "budget_invitations": 100,
+    "target_group": "Marketing Professionals"
+  },
+  "logistics": {
+    "logistics_provider": "City Logistics",
+    "logistics_schedule": "2025-04-15T08:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-04-15T09:00:00Z",
+    "location": "Business Center",
+    "location_address": "Berlin",
+    "logistics_provider": "City Logistics",
+    "logistics_schedule": "2025-04-15T08:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-04-15T09:00:00Z",
+    "participants": 25
+  }
+}

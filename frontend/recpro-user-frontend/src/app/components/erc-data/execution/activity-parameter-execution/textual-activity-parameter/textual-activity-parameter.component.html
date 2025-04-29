@@ -1,0 +1,4 @@
+<mat-form-field class="w-100" appearance="outline">
+  <mat-label>{{activityParameter.label}}</mat-label>
+  <input matInput [(ngModel)]="activityParameterInstance.value" [disabled]="!executable">
+</mat-form-field>

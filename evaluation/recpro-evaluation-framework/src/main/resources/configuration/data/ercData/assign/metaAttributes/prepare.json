@@ -1,0 +1,47 @@
+[
+  {
+    "id": "prepare_logistics",
+    "activity": {
+      "id": "prepare",
+      "name": "Event vorbereiten",
+      "description": "",
+      "bpmsElementId": "prepare",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "logistics",
+      "label": "Logistik",
+      "description": ""
+    }
+  },
+  {
+    "id": "prepare_coordination",
+    "activity": {
+      "id": "prepare",
+      "name": "Event vorbereiten",
+      "description": "",
+      "bpmsElementId": "prepare",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "coordination",
+      "label": "Koordination",
+      "description": ""
+    }
+  },
+  {
+    "id": "prepare_supply",
+    "activity": {
+      "id": "prepare",
+      "name": "Event vorbereiten",
+      "description": "",
+      "bpmsElementId": "prepare",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "supply",
+      "label": "Versorgung",
+      "description": ""
+    }
+  }
+]

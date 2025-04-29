@@ -1,0 +1,37 @@
+.main-content {
+  padding: calc(65px + 1.5rem) 1.5rem 1.5rem 1.5rem;
+  height: calc(98vh); /* Adjust based on header's height */
+  margin-left: 230px; /* Adjust based on sidebar's width */
+  overflow: hidden;
+  //background-color: green;
+  position: relative; /* Ensures overlay positioning */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.main-content .router-outlet {
+  height: 100%;
+  overflow-y: auto;
+  position: absolute; /* Allows stretching to fit parent dimensions */
+  top: calc(65px + 1.5rem); /* Adjust based on the padding top */
+  left: 1.5rem;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+
+.test-2 {
+  margin-left: 0 !important;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.overlay.show {
+  display: block;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the overlay background as needed */
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "location-budget_location",
+    "activity": {
+      "id":"location","name":"Location auswählen","description":null,"bpmsElementId":"location","roles":[]
+    },
+    "parameter": {
+      "id": "budget_location",
+      "label": "Budget für Location",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 0
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "location-location",
+    "activity": {
+      "id":"location","name":"Location auswählen","description":null,"bpmsElementId":"location","roles":[]
+    },
+    "parameter":   {
+      "id": "location",
+      "label": "Veranstaltungsort",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "location-location_address",
+    "activity": {
+      "id":"location","name":"Location auswählen","description":null,"bpmsElementId":"location","roles":[]
+    },
+    "parameter":   {
+      "id": "location_address",
+      "label": "Ort der Veranstaltung",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": "Bayreuth"
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  }
+]

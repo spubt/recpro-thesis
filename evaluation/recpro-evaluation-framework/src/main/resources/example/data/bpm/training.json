@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 15,
+    "target_group": "Company Employees"
+  },
+  "budget_planning": {
+    "budget_total": 750,
+    "budget_location": 300,
+    "budget_catering": 200,
+    "budget_invitations": 250
+  },
+  "catering": {
+    "budget_catering": 200,
+    "catering_delivery_schedule": "2025-08-01T12:00:00Z",
+    "catering_provider": "Office Catering",
+    "catering_type": "Coffee and Cookies"
+  },
+  "location": {
+    "budget_location": 300,
+    "location": "Company Office",
+    "location_address": "Frankfurt"
+  },
+  "concept": {
+    "event_purpose": "Training",
+    "event_theme": "Software Training",
+    "event_type": "Training Session"
+  },
+  "execute": {
+    "event_date": "2025-08-01T09:00:00Z",
+    "event_duration": 4,
+    "participants": 12,
+    "estimated_participants": 15
+  },
+  "invitations": {
+    "budget_invitations": 250,
+    "target_group": "Company Employees"
+  },
+  "logistics": {
+    "logistics_provider": "Internal Logistics",
+    "logistics_schedule": "2025-08-01T08:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-08-01T09:00:00Z",
+    "location": "Company Office",
+    "location_address": "Frankfurt",
+    "logistics_provider": "Internal Logistics",
+    "logistics_schedule": "2025-08-01T08:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-08-01T09:00:00Z",
+    "participants": 12
+  }
+}

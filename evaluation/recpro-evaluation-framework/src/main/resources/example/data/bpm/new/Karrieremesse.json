@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 150,
+    "target_group": "Studenten",
+    "date": "2025-04-15T09:00:00.000000Z"
+  },
+  "budget_planning": {
+    "budget_total": 7000,
+    "budget_location": 3000,
+    "budget_catering": 2500,
+    "budget_invitations": 1500,
+    "date": "2025-04-15T09:00:00.000000Z"
+  },
+  "catering": {
+    "budget_catering": 2500,
+    "catering_delivery_schedule": "2025-04-15T11:30:00Z",
+    "catering_provider": "Fresh Catering",
+    "catering_type": "Buffet",
+    "date": "2025-04-15T09:00:00.000000Z"
+  },
+  "concept": {
+    "event_purpose": "Karrieremesse",
+    "event_theme": "Innovation und Start-ups",
+    "event_type": "Messe",
+    "date": "2025-04-15T09:00:00.000000Z"
+  },
+  "execute": {
+    "event_date": "2025-04-15T09:00:00Z",
+    "event_duration": 8,
+    "participants": 140,
+    "estimated_participants": 150,
+    "date": "2025-04-15T09:00:00.000000Z",
+    "temperature": 22,
+    "weather": "bewölkt",
+    "parkplatz": 180,
+    "noise": 65
+  },
+  "invitations": {
+    "budget_invitations": 1500,
+    "target_group": "Studenten",
+    "date": "2025-04-15T09:00:00.000000Z"
+  },
+  "location": {
+    "budget_location": 3000,
+    "location": "Universitätscampus",
+    "location_address": "Berlin",
+    "date": "2025-04-15T09:00:00.000000Z",
+    "temperature": 19,
+    "weather": "bewölkt",
+    "parkplatz": 180
+  },
+  "logistics": {
+    "logistics_provider": "Campus Transport",
+    "logistics_schedule": "2025-04-15T07:00:00Z",
+    "date": "2025-04-15T09:00:00.000000Z",
+    "parkplatz": 180
+  },
+  "prepare": {
+    "event_date": "2025-04-15T09:00:00Z",
+    "location": "Universitätscampus",
+    "location_address": "Berlin",
+    "logistics_provider": "Campus Transport",
+    "logistics_schedule": "2025-04-15T07:00:00Z",
+    "date": "2025-04-15T09:00:00.000000Z",
+    "temperature": 22,
+    "weather": "bewölkt"
+  },
+  "report": {
+    "event_date": "2025-04-15T09:00:00Z",
+    "participants": 140,
+    "date": "2025-04-15T09:00:00.000000Z"
+  }
+}

@@ -1,0 +1,24 @@
+.criteria-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.criteria-label h3 {
+  margin: 0;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.criteria-select {
+  flex: 1;
+}
+
+.criteria-button button {
+  height: 56px; /* gleiche Höhe wie Mat-Form-Field */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Abstand zwischen Icon und Text */
+}

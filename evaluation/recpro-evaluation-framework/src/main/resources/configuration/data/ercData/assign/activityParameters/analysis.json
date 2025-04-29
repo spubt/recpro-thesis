@@ -1,0 +1,38 @@
+[
+  {
+    "id": "analysis-target_group",
+    "activity": {
+      "id":"analysis","name":"Zielgruppenanalyse durchführen","description":null,"bpmsElementId":"analysis","roles":[]
+    },
+    "parameter": {
+      "id": "target_group",
+      "label": "Zielgruppe",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "analysis-estimated_participants",
+    "activity": {
+      "id":"analysis","name":"Zielgruppenanalyse durchführen","description":null,"bpmsElementId":"analysis","roles":[]
+    },
+    "parameter": {
+      "id": "estimated_participants",
+      "label": "Teilnehmeranzahl",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 10
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  }
+]

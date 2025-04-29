@@ -1,0 +1,22 @@
+{
+  "name": "@recprocess/recpro-frontend-lib",
+  "version": "0.0.1-alpha.39",
+  "private": false,
+  "peerDependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/cdk": "^19.0.4",
+    "@angular/material": "^19.0.4"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "registry": "https://gitlab.com/api/v4/projects/66532995/packages/npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/recprocess/diss-petter.git"
+  }
+}

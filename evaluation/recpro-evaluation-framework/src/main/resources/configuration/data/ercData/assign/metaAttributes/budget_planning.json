@@ -1,0 +1,47 @@
+[
+  {
+    "id": "budget_planning_finance",
+    "activity": {
+      "id": "budget_planning",
+      "name": "Budget Planen",
+      "description": "",
+      "bpmsElementId": "budget_planning",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "finance",
+      "label": "Finanzen",
+      "description": ""
+    }
+  },
+  {
+    "id": "budget_planning_planning",
+    "activity": {
+      "id": "budget_planning",
+      "name": "Budget Planen",
+      "description": "",
+      "bpmsElementId": "budget_planning",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "planning",
+      "label": "Planung",
+      "description": ""
+    }
+  },
+  {
+    "id": "budget_planning_excel",
+    "activity": {
+      "id": "budget_planning",
+      "name": "Budget Planen",
+      "description": "",
+      "bpmsElementId": "budget_planning",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "excel",
+      "label": "Excel",
+      "description": ""
+    }
+  }
+]

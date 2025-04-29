@@ -1,0 +1,38 @@
+/* Container für die Module */
+.centered-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 gleichgroße Spalten */
+  gap: 20px; /* Abstand zwischen den Modulen */
+  width: 80%; /* Breite des Containers */
+  max-width: 1200px; /* Maximale Breite */
+  margin: 50px auto; /* Zentrierung des Containers */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f8f9fa; /* Hintergrundfarbe */
+  border: 2px solid #000; /* Schwarzer Rahmen */
+  border-radius: 10px;
+}
+
+/* Module-Design */
+.module {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9; /* Hintergrundfarbe der Module */
+  color: #ffffff; /* Textfarbe */
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px; /* Abgerundete Ecken */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten */
+  height: 300px; /* Feste Höhe der Module */
+  transition: all 0.3s ease;
+}
+
+/* Hover-Effekt */
+.module:hover {
+  background-color: #bdbdbd; /* Leicht dunkler beim Hover */
+  transform: translateY(-5px); /* Heben */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

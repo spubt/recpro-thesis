@@ -1,0 +1,38 @@
+[
+  {
+    "id": "logistics-logistics_provider",
+    "activity": {
+      "id":"logistics","name":"Logistik organisieren","description":null,"bpmsElementId":"logistics","roles":[]
+    },
+    "parameter": {
+      "id": "logistics_provider",
+      "label": "Logistikdienstleister",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "logistics-logistics_schedule",
+    "activity": {
+      "id":"logistics","name":"Logistik organisieren","description":null,"bpmsElementId":"logistics","roles":[]
+    },
+    "parameter":  {
+      "id": "logistics_schedule",
+      "label": "Datum aufbau",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "DATE",
+      "defaultValue": "2025-03-19T11:27:08.867494Z"
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  }
+]

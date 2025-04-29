@@ -1,0 +1,74 @@
+[
+  {
+    "id": "catering-catering_type",
+    "activity": {
+      "id":"catering","name":"Catering organisieren","description":null,"bpmsElementId":"catering","roles":[]
+    },
+    "parameter": {
+      "id": "catering_type",
+      "label": "Art des Caterings",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "catering-catering_delivery_schedule",
+    "activity": {
+      "id":"catering","name":"Catering organisieren","description":null,"bpmsElementId":"catering","roles":[]
+    },
+    "parameter": {
+      "id": "catering_delivery_schedule",
+      "label": "Uhrzeit für Catering",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "DATE",
+      "defaultValue": "2025-03-19T11:27:08.867494Z"
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "catering-catering_provider",
+    "activity": {
+      "id":"catering","name":"Catering organisieren","description":null,"bpmsElementId":"catering","roles":[]
+    },
+    "parameter": {
+      "id": "catering_provider",
+      "label": "Catering Dienstleister",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "catering-budget_catering",
+    "activity": {
+      "id":"catering","name":"Catering organisieren","description":null,"bpmsElementId":"catering","roles":[]
+    },
+    "parameter": {
+      "id": "budget_catering",
+      "label": "Budget für Catering",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 0
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  }
+]

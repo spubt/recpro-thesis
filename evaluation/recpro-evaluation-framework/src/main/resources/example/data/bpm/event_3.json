@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 2000,
+    "target_group": "Familien"
+  },
+  "budget_planning": {
+    "budget_total": 20000,
+    "budget_location": 10000,
+    "budget_catering": 5000,
+    "budget_invitations": 5000
+  },
+  "catering": {
+    "budget_catering": 500,
+    "catering_delivery_schedule": "2025-03-19T12:00:00Z",
+    "catering_provider": "Food Truck Co.",
+    "catering_type": "Fingerfood"
+  },
+  "location": {
+    "budget_location": 10000,
+    "location": "Freizeitzentrum",
+    "location_address": "München"
+  },
+  "concept": {
+    "event_purpose": "Feier",
+    "event_theme": "Tradition",
+    "event_type": "Party"
+  },
+  "execute": {
+    "event_date": "2025-03-19T11:27:08Z",
+    "event_duration": 48,
+    "participants": 1700,
+    "estimated_participants": 2000
+  },
+  "invitations": {
+    "budget_invitations": 5000,
+    "target_group": "Familien"
+  },
+  "logistics": {
+    "logistics_provider": "Speedy Logistics",
+    "logistics_schedule": "2025-03-19T10:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-03-19T11:27:08Z",
+    "location": "Freizeitzentrum",
+    "location_address": "München",
+    "logistics_provider": "Speedy Logistics",
+    "logistics_schedule": "2025-03-19T10:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-03-19T11:27:08Z",
+    "participants": 1700
+  }
+}

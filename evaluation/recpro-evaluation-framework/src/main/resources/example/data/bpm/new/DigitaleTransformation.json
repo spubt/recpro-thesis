@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 250,
+    "target_group": "IT-Experten",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 18000,
+    "budget_location": 8000,
+    "budget_catering": 7000,
+    "budget_invitations": 3000,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 7000,
+    "catering_delivery_schedule": "2025-04-02T08:30:00Z",
+    "catering_provider": "EventCuisine AG",
+    "catering_type": "Premium-Buffet",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Wissenstransfer",
+    "event_theme": "Digitale Transformation",
+    "event_type": "Kongress",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-04-02T09:00:00Z",
+    "event_duration": 14,
+    "participants": 245,
+    "estimated_participants": 250,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 20,
+    "weather": "leicht bewölkt",
+    "parkplatz": 300,
+    "noise": 70
+  },
+  "invitations": {
+    "budget_invitations": 3000,
+    "target_group": "IT-Experten",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 8000,
+    "location": "Tech Convention Center",
+    "location_address": "Köln",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 19,
+    "weather": "leicht bewölkt",
+    "parkplatz": 300
+  },
+  "logistics": {
+    "logistics_provider": "TechLogistics Solutions",
+    "logistics_schedule": "2025-04-02T05:30:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 300
+  },
+  "prepare": {
+    "event_date": "2025-04-02T09:00:00Z",
+    "location": "Tech Convention Center",
+    "location_address": "Köln",
+    "logistics_provider": "TechLogistics Solutions",
+    "logistics_schedule": "2025-04-02T05:30:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 20,
+    "weather": "leicht bewölkt"
+  },
+  "report": {
+    "event_date": "2025-04-02T09:00:00Z",
+    "participants": 245,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

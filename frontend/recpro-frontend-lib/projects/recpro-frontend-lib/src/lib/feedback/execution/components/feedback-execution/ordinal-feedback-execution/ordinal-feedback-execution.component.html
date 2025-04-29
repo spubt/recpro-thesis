@@ -1,0 +1,9 @@
+<div class="clr-row">
+  <div class="clr-col-12">
+    <mat-radio-group [(ngModel)]="ordinalFeedbackInstance.value">
+      <mat-radio-button [value]="detail" *ngFor="let detail of ordinalFeedback.options | sortOrdinalOptions ">
+        <div class="text-over-button">{{detail.label}}</div>
+      </mat-radio-button>
+    </mat-radio-group>
+  </div>
+</div>

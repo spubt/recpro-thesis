@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 80,
+    "target_group": "Studenten",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 4000,
+    "budget_location": 1800,
+    "budget_catering": 1500,
+    "budget_invitations": 700,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 1500,
+    "catering_delivery_schedule": "2025-03-22T11:30:00Z",
+    "catering_provider": "Campus Catering",
+    "catering_type": "Snacks",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Bildung",
+    "event_theme": "Digitalisierung",
+    "event_type": "Seminar",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-03-22T12:00:00Z",
+    "event_duration": 6,
+    "participants": 75,
+    "estimated_participants": 80,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 21,
+    "weather": "sonnig",
+    "parkplatz": 120,
+    "noise": 55
+  },
+  "invitations": {
+    "budget_invitations": 700,
+    "target_group": "Studenten",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 1800,
+    "location": "Hochschulzentrum",
+    "location_address": "Hamburg",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 19,
+    "weather": "leicht bewölkt",
+    "parkplatz": 120
+  },
+  "logistics": {
+    "logistics_provider": "CampusLogistics",
+    "logistics_schedule": "2025-03-22T09:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 120
+  },
+  "prepare": {
+    "event_date": "2025-03-22T12:00:00Z",
+    "location": "Hochschulzentrum",
+    "location_address": "Hamburg",
+    "logistics_provider": "CampusLogistics",
+    "logistics_schedule": "2025-03-22T09:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 21,
+    "weather": "sonnig"
+  },
+  "report": {
+    "event_date": "2025-03-22T12:00:00Z",
+    "participants": 75,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

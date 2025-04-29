@@ -1,0 +1,15 @@
+<mat-card class="container-auto-fill-auto" >
+  <div class="container-auto-fill-auto">
+    <mat-card-header class="card-header content-fit">
+      <h5>Start Process</h5>
+    </mat-card-header>
+    <mat-card-content class="content-fill card-content">
+        <app-process-table [startable]="true" [viewable]="false" (start)="startProcess($event)" [processes]="processes"></app-process-table>
+    </mat-card-content>
+    <mat-card-footer class="card-footer content-fit">
+      <mat-card-actions  align="end">
+        <button mat-stroked-button class="px-4" mat-dialog-close>Cancel</button>
+      </mat-card-actions>
+    </mat-card-footer>
+  </div>
+</mat-card>

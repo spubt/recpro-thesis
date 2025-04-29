@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 100,
+    "target_group": "Fachpublikum",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 5000,
+    "budget_location": 2500,
+    "budget_catering": 2000,
+    "budget_invitations": 500,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 2000,
+    "catering_delivery_schedule": "2025-03-19T12:00:00Z",
+    "catering_provider": "Gourmet GmbH",
+    "catering_type": "Dinner",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Produktpräsentation",
+    "event_theme": "Technologie",
+    "event_type": "Konferenz",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-03-19T11:27:08Z",
+    "event_duration": 10,
+    "participants": 90,
+    "estimated_participants": 100,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 26,
+    "weather": "sonnig",
+    "parkplatz": 200,
+    "noise": 78
+  },
+  "invitations": {
+    "budget_invitations": 500,
+    "target_group": "Fachpublikum",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 2500,
+    "location": "Konferenzzentrum",
+    "location_address": "München",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 18,
+    "weather": "regnerisch",
+    "parkplatz": 200
+  },
+  "logistics": {
+    "logistics_provider": "Speedy Logistics",
+    "logistics_schedule": "2025-03-19T10:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 200
+  },
+  "prepare": {
+    "event_date": "2025-03-19T11:27:08Z",
+    "location": "Konferenzzentrum",
+    "location_address": "München",
+    "logistics_provider": "Speedy Logistics",
+    "logistics_schedule": "2025-03-19T10:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 26,
+    "weather": "sonnig"
+  },
+  "report": {
+    "event_date": "2025-03-19T11:27:08Z",
+    "participants": 90,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

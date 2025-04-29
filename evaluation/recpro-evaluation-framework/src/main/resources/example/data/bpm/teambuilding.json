@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 50,
+    "target_group": "Company Employees"
+  },
+  "budget_planning": {
+    "budget_total": 3000,
+    "budget_location": 1500,
+    "budget_catering": 1000,
+    "budget_invitations": 500
+  },
+  "catering": {
+    "budget_catering": 1000,
+    "catering_delivery_schedule": "2025-07-15T12:00:00Z",
+    "catering_provider": "Outdoor Grills",
+    "catering_type": "Barbecue"
+  },
+  "location": {
+    "budget_location": 1500,
+    "location": "Adventure Park",
+    "location_address": "Outside Hamburg"
+  },
+  "concept": {
+    "event_purpose": "Team Building",
+    "event_theme": "Adventure Challenges",
+    "event_type": "Teambuilding"
+  },
+  "execute": {
+    "event_date": "2025-07-15T10:00:00Z",
+    "event_duration": 6,
+    "participants": 45,
+    "estimated_participants": 50
+  },
+  "invitations": {
+    "budget_invitations": 500,
+    "target_group": "Company Employees"
+  },
+  "logistics": {
+    "logistics_provider": "Active Logistics",
+    "logistics_schedule": "2025-07-15T08:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-07-15T10:00:00Z",
+    "location": "Adventure Park",
+    "location_address": "Outside Hamburg",
+    "logistics_provider": "Active Logistics",
+    "logistics_schedule": "2025-07-15T08:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-07-15T10:00:00Z",
+    "participants": 45
+  }
+}

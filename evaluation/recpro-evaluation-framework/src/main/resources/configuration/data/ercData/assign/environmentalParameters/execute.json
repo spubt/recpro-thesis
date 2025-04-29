@@ -1,0 +1,106 @@
+[
+  {
+    "id": "execute-date",
+    "activity": {
+      "id": "execute",
+      "name": "Event durchführen",
+      "description": "",
+      "bpmsElementId": "execute",
+      "roles": []
+    },
+    "parameter":
+    {
+      "parameterType":"DATE","id":"date","label":"Datum und Uhrzeit","description":"","source":"http://localhost:8085/erc/envParams/date","bpmsAttributeId":"","visibility":"true","defaultValue":"2025-03-19T11:27:08.867494Z"
+    },
+    "source":"http://localhost:8085/erc/envParams/date"
+  },
+  {
+    "id": "execute-temperature",
+    "activity": {
+      "id": "execute",
+      "name": "Event durchführen",
+      "description": "",
+      "bpmsElementId": "execute",
+      "roles": []
+    },
+    "parameter":
+    {
+      "id": "temperature",
+      "label": "Temperatur",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "source": "http://localhost:8085/erc/envParams/temperature",
+      "visibility": true,
+      "defaultValue": 20
+    },
+    "source":"http://localhost:8085/erc/envParams/temperature-execute"
+  },
+  {
+    "id": "execute-weather",
+    "activity": {
+      "id": "execute",
+      "name": "Event durchführen",
+      "description": "",
+      "bpmsElementId": "execute",
+      "roles": []
+    },
+    "parameter":
+    {
+      "id": "weather",
+      "label": "Wetterbedingungen",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "source": "http://localhost:8085/erc/envParams/weather",
+      "visibility": true,
+      "defaultValue": "sonnig"
+    },
+    "source":"http://localhost:8085/erc/envParams/weather-execute"
+  },
+  {
+    "id": "execute-parkplatz",
+    "activity": {
+      "id": "execute",
+      "name": "Event durchführen",
+      "description": "",
+      "bpmsElementId": "execute",
+      "roles": []
+    },
+    "parameter":
+    {
+      "id": "parkplatz",
+      "label": "Parkplatzverfügbarkeit",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "source": "http://localhost:8085/erc/envParams/parkplatz",
+      "visibility": true,
+      "defaultValue": 42
+    },
+    "source":"http://localhost:8085/erc/envParams/parkplatz-execute"
+  },
+  {
+    "id": "execute-noise",
+    "activity": {
+      "id": "execute",
+      "name": "Event durchführen",
+      "description": "",
+      "bpmsElementId": "execute",
+      "roles": []
+    },
+    "parameter":
+    {
+      "id": "noise",
+      "label": "Lärmpegel",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "source": "http://localhost:8085/erc/envParams/noise",
+      "visibility": true,
+      "defaultValue": 42
+    },
+    "source":"http://localhost:8085/erc/envParams/noise-execute"
+  }
+
+]

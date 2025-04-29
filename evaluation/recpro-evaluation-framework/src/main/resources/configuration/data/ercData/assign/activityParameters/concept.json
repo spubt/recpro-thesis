@@ -1,0 +1,56 @@
+[
+  {
+    "id": "concept-event_purpose",
+    "activity": {
+      "id":"concept","name":"Konzept erstellen","description":null,"bpmsElementId":"concept","roles":[]
+    },
+    "parameter":  {
+      "id": "event_purpose",
+      "label": "Ziel des Events",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "concept-event_theme",
+    "activity": {
+      "id":"concept","name":"Konzept erstellen","description":null,"bpmsElementId":"concept","roles":[]
+    },
+    "parameter":    {
+      "id": "event_theme",
+      "label": "Thema des Events",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "concept-event_type",
+    "activity": {
+      "id":"concept","name":"Konzept erstellen","description":null,"bpmsElementId":"concept","roles":[]
+    },
+    "parameter":  {
+      "id": "event_type",
+      "label": "Art des Events",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "budget_total",
+    "label": "Gesamtbudget",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "defaultValue": 10000
+  },
+  {
+    "id": "estimated_participants",
+    "label": "Teilnehmeranzahl",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "defaultValue": 10
+  },
+  {
+    "id": "event_date",
+    "label": "Datum",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "DATE",
+    "defaultValue": "2025-03-19T11:27:08.867494Z"
+  },
+  {
+    "id": "target_group",
+    "label": "Zielgruppe",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "defaultValue": ""
+  },
+  {
+    "id": "event_duration",
+    "label": "Dauer (in Stunden)",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "defaultValue": 12
+  },
+  {
+    "id": "budget_location",
+    "label": "Budget für Location",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "defaultValue": 0
+  },
+  {
+    "id": "budget_catering",
+    "label": "Budget für Catering",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "defaultValue": 0
+  },
+  {
+    "id": "budget_invitations",
+    "label": "Budget für Einladungen",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "defaultValue": 0
+  },
+  {
+    "id": "event_purpose",
+    "label": "Ziel des Events",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "defaultValue": ""
+  },
+  {
+    "id": "event_theme",
+    "label": "Thema des Events",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "defaultValue": ""
+  },
+  {
+    "id": "event_type",
+    "label": "Art des Events",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "defaultValue": ""
+  },
+  {
+    "id": "location",
+    "label": "Veranstaltungsort",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "defaultValue": ""
+  },
+  {
+    "id": "location_address",
+    "label": "Ort der Veranstaltung",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "defaultValue": "Bayreuth"
+  },
+  {
+    "id": "catering_type",
+    "label": "Art des Caterings",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "defaultValue": ""
+  },
+  {
+    "id": "catering_delivery_schedule",
+    "label": "Uhrzeit für Catering",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "DATE",
+    "defaultValue": "2025-03-19T11:27:08.867494Z"
+  },
+  {
+    "id": "logistics_provider",
+    "label": "Logistikdienstleister",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "defaultValue": ""
+  },
+  {
+    "id": "catering_provider",
+    "label": "Catering Dienstleister",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "TEXTUAL",
+    "defaultValue": ""
+  },
+  {
+    "id": "logistics_schedule",
+    "label": "Datum aufbau",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "DATE",
+    "defaultValue": "2025-03-19T11:27:08.867494Z"
+  },
+  {
+    "id": "participants",
+    "label": "Anzahl Teilnehmende",
+    "description": "",
+    "bpmsAttributeId": "",
+    "parameterType": "NUMERIC",
+    "defaultValue": 0
+  },
+  {"id": "binary-1", "label":"Binary ACT Parameter", "description":"","bpmsAttributeId":"", "parameterType":"BINARY", "defaultValue":  true},
+  {"id": "numeric-1", "label":"Numeric ACT Parameter", "description":"","bpmsAttributeId":"", "parameterType":"NUMERIC", "defaultValue":  42},
+  {"id": "textual-1", "label":"TEXTUAL ACT Parameter", "description":"","bpmsAttributeId":"", "parameterType":"TEXTUAL", "defaultValue":  "TEXT"},
+  {"id": "date-1", "label":"DATE ACT", "description":"","bpmsAttributeId":"","parameterType":"DATE", "defaultValue": "2025-03-19T11:27:08.867494Z"}
+]

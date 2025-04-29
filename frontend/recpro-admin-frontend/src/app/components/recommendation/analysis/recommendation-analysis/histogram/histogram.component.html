@@ -1,0 +1,47 @@
+<div class="container-3-content">
+  <div class="full-height-card">
+    <mat-card class="container-auto-fill-auto" >
+      <div class="container-auto-fill-auto">
+        <mat-card-header class="card-header content-fit">
+          <div class="row" style="width: 100%; height: 100%">
+            <div class="col-10">
+              <h5>{{analysis.label}}</h5>
+            </div>
+          </div>
+        </mat-card-header>
+        <mat-card-content class="content-fill card-content">
+          <div class="row">
+            <div class="col-6">
+              <mat-form-field>
+                <mat-label>Recommendation Service</mat-label>
+                <input matInput [(ngModel)]="analysis.recommendationService.name" disabled>
+              </mat-form-field>
+            </div>
+            <div class="col-6">
+              <mat-form-field>
+                <mat-label>Feedback</mat-label>
+                <input matInput [(ngModel)]="analysis.feedback.label" disabled>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row" style="min-height: 280px">
+            <div class="col-12">
+              <ngx-charts-bar-vertical
+                [results]="histogramData"
+                [xAxis]="true"
+                [yAxis]="true"
+                [legend]="false"
+                [showXAxisLabel]="true"
+                [showYAxisLabel]="true"
+                xAxisLabel="Abweichung"
+                yAxisLabel="Häufigkeit"
+                [scheme]="colorScheme"
+              >
+              </ngx-charts-bar-vertical>
+            </div>
+          </div>
+        </mat-card-content>
+      </div>
+    </mat-card>
+  </div>
+</div>

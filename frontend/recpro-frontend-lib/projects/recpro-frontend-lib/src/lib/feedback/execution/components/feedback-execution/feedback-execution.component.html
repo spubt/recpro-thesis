@@ -1,0 +1,37 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      Rate task
+    </mat-card-title>
+  </mat-card-header>
+  <mat-divider style="margin-top: 10px; margin-bottom: 10px;"></mat-divider>
+  <mat-card-content>
+    <div class="clr-row">
+      <div class="clr-col-12">
+        <div [ngSwitch]="feedback.feedbackType">
+          <div *ngSwitchCase="FeedbackType.BINARY">
+            <lib-binary-feedback-execution [binaryFeedback]="feedbackService.getBinaryFeedback(this.feedback)"
+                [binaryFeedbackInstance]="feedbackService.getBinaryFeedbackInstance(feedbackInstance)"
+            ></lib-binary-feedback-execution>
+          </div>
+          <div *ngSwitchCase="FeedbackType.CONTINUOUS">
+            CONTINUOUS
+          </div>
+          <div *ngSwitchCase="FeedbackType.INTERVAL_BASED">
+            <lib-interval-based-feedback-execution [intervalBasedFeedback]="feedbackService.getIntervalBasedFeedback(this.feedback)"
+                [intervalBasedFeedbackInstance]="feedbackService.getIntervalBasedFeedbackInstance(feedbackInstance)"
+            ></lib-interval-based-feedback-execution>
+          </div>
+          <div *ngSwitchCase="FeedbackType.ORDINAL">
+            <lib-ordinal-feedback-execution [ordinalFeedback]="feedbackService.getOrdinalFeedback(this.feedback)"
+                [ordinalFeedbackInstance]="feedbackService.getOrdinalFeedbackInstance(feedbackInstance)"
+            ></lib-ordinal-feedback-execution>
+          </div>
+          <div *ngSwitchCase="FeedbackType.UNARY">
+            UNARY
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

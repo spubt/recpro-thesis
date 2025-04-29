@@ -1,0 +1,9 @@
+<div *ngFor="let entry of activityParameterConfigurations">
+  <app-activity-parameter-execution
+    [activityParameter]="entry.parameter"
+    [activityParameterInstance]="getActivityParameterInstanceByActivityParameterId(entry.parameter)"
+    [executable]="executable"
+    *ngIf="entry.parameterConfigurationType === ActivityParameterConfigurationType.OUTPUT"
+  ></app-activity-parameter-execution>
+</div>
+

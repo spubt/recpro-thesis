@@ -1,0 +1,17 @@
+<div [ngSwitch]="getActivityParameterType()">
+  <div *ngSwitchCase="ParameterType.BINARY">
+    <app-binary-activity-parameter [activityParameter]="getBinaryActivityParameter()" [activityParameterInstance]="getBinaryActivityParameterInstance()" [executable]="executable"></app-binary-activity-parameter>
+  </div>
+  <div *ngSwitchCase="ParameterType.COMPLEX">
+    COMPLEX (NOT YET IMPLEMENTED)
+  </div>
+  <div *ngSwitchCase="ParameterType.DATE">
+    <app-date-activity-parameter [activityParameter]="getDateActivityParameter()" [activityParameterInstance]="getDateActivityParameterInstance()" [executable]="executable"></app-date-activity-parameter>
+  </div>
+  <div *ngSwitchCase="ParameterType.NUMERIC">
+    <app-numeric-activity-parameter [activityParameter]="getNumericActivityParameter()" [activityParameterInstance]="getNumericActivityParameterInstance()" [executable]="executable"></app-numeric-activity-parameter>
+  </div>
+  <div *ngSwitchCase="ParameterType.TEXTUAL">
+    <app-textual-activity-parameter [activityParameter]="getTextualActivityParameter()" [activityParameterInstance]="getTextualActivityParameterInstance()" [executable]="executable"></app-textual-activity-parameter>
+  </div>
+</div>

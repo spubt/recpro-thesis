@@ -1,0 +1,75 @@
+[
+  {
+    "id": "budget_planning-budget_total",
+    "activity": {
+      "id":"budget_planning","name":"Budget planen","description":null,"bpmsElementId":"budget_planning","roles":[]
+    },
+    "parameter": {
+      "id": "budget_total",
+      "label": "Gesamtbudget",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 10000
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"-1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "budget_planning-budget_location",
+    "activity": {
+      "id":"budget_planning","name":"Budget planen","description":null,"bpmsElementId":"budget_planning","roles":[]
+    },
+    "parameter": {
+      "id": "budget_location",
+      "label": "Budget für Location",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 0
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "budget_planning-budget_catering",
+    "activity": {
+      "id":"budget_planning","name":"Budget planen","description":null,"bpmsElementId":"budget_planning","roles":[]
+    },
+    "parameter": {
+      "id": "budget_catering",
+      "label": "Budget für Catering",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 0
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"2",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "budget_planning-budget_invitations",
+    "activity": {
+      "id":"budget_planning","name":"Budget planen","description":null,"bpmsElementId":"budget_planning","roles":[]
+    },
+    "parameter": {
+      "id": "budget_invitations",
+      "label": "Budget für Einladungen",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 0
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"3",
+    "width":"12",
+    "height":0
+  }
+
+]

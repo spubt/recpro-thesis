@@ -1,0 +1,72 @@
+[
+  {
+    "id": "analysis",
+    "label": "Analyse",
+    "description": ""
+  },
+  {
+    "id": "finance",
+    "label": "Finanzen",
+    "description": ""
+  },
+  {
+    "id": "creativity",
+    "label": "Kreativität",
+    "description": ""
+  },
+  {
+    "id": "logistics",
+    "label": "Logistik",
+    "description": ""
+  },
+  {
+    "id": "planning",
+    "label": "Planung",
+    "description": ""
+  },
+  {
+    "id": "organisation",
+    "label": "Organisation",
+    "description": ""
+  },
+  {
+    "id": "documentation",
+    "label": "Dokumentation",
+    "description": ""
+  },
+  {
+    "id": "coordination",
+    "label": "Koordination",
+    "description": ""
+  },
+  {
+    "id": "supply",
+    "label": "Versorgung",
+    "description": ""
+  },
+  {
+    "id": "excel",
+    "label": "Excel",
+    "description": ""
+  },
+  {
+    "id": "event_management_system",
+    "label": "Event Management System",
+    "description": ""
+  },
+  {
+    "id": "phone",
+    "label": "Telefon",
+    "description": ""
+  },
+  {
+    "id": "mail",
+    "label": "E-Mail",
+    "description": ""
+  },
+  {
+    "id": "word",
+    "label": "Word",
+    "description": ""
+  }
+]

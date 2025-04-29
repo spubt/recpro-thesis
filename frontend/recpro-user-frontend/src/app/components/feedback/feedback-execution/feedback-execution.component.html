@@ -1,0 +1,17 @@
+<mat-card class="container-auto-fill-auto" >
+  <div class="container-auto-fill-auto">
+    <mat-card-header class="card-header content-fit">
+      <h5>Rate Task</h5>
+    </mat-card-header>
+    <mat-card-content class="content-fill card-content">
+      <lib-feedback-execution [feedback]="feedback" [feedbackInstance]="feedbackInstance"></lib-feedback-execution>
+<!--      <lib-ordinal-feedback-execution [ordinalFeedback]="feedback" [ordinalFeedbackInstance]="feedbackInstance"></lib-ordinal-feedback-execution>-->
+<!--      <app-process-table [startable]="true" [viewable]="false" (start)="startProcess($event)" [processes]="processes"></app-process-table>-->
+    </mat-card-content>
+    <mat-card-footer class="card-footer content-fit">
+      <mat-card-actions  align="end">
+        <button mat-stroked-button class="px-4" (click)="submit()">Submit</button>
+      </mat-card-actions>
+    </mat-card-footer>
+  </div>
+</mat-card>

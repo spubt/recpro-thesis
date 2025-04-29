@@ -1,0 +1,21 @@
+<aside class="sidebar-wrapper mat-elevation-z9" [ngClass]="{'mini-sidebar' : getSideBarSate()}">
+  <div class="sidebar-header">
+    <img ngSrc="assets/images/logo/logo.svg" alt="RECPRO" height="33" width="200" priority>
+  </div>
+
+  <nav class="sidebar-menu">
+    <mat-nav-list routerLinkActive="active">
+      <a mat-list-item routerLink="/dashboard"><mat-icon class="material-icons-outlined">dashboard</mat-icon>Dashboard</a>
+    </mat-nav-list>
+
+    <mat-nav-list routerLinkActive="active">
+      <a mat-list-item routerLink="/bpm/execution"><mat-icon class="material-icons-outlined">dashboard</mat-icon>Process execution</a>
+    </mat-nav-list>
+
+    <mat-nav-list routerLinkActive="active">
+      <a mat-list-item routerLink="/user"><mat-icon class="material-icons-outlined">dashboard</mat-icon>User</a>
+    </mat-nav-list>
+
+  </nav>
+
+</aside>

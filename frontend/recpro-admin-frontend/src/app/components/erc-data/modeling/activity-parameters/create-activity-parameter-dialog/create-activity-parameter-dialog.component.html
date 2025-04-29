@@ -1,0 +1,76 @@
+<div class="card-header">
+  <h2 mat-dialog-title>Create ActivityParameter</h2>
+</div>
+<mat-dialog-content class="mat-typography">
+  <div class="col-12 col-xl-12">
+
+    <mat-card>
+      <mat-card-content>
+        <div class="row g-3">
+          <h2>Base parameters:</h2>
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-md-6">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>Label</mat-label>
+              <input matInput placeholder="e.g. Customer" [(ngModel)]="activityParameter.label">
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-3">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Type</mat-label>
+              <mat-select [(ngModel)]="activityParameter.parameterType">
+                <mat-option *ngFor="let type of activityParameterTypes" [value]="type">
+                  {{ type }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-3">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>ID</mat-label>
+              <input matInput placeholder="Will be automatically generated" [(ngModel)]="activityParameter.id" disabled="true">
+            </mat-form-field>
+          </div>
+          <div class="col-12">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>BPMS Attribute ID</mat-label>
+              <input matInput [(ngModel)]="activityParameter.bpmsAttributeId">
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-12">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>Description</mat-label>
+              <textarea matInput [(ngModel)]="activityParameter.description"></textarea>
+            </mat-form-field>
+          </div>
+
+        </div><!--end row-->
+
+        <div class="row g-3" style="margin-top: 20px;">
+          <h2>Specific parameters:</h2>
+        </div>
+
+        <div class="row g-3" *ngIf="activityParameterService.isBinaryParameter(this.activityParameter)">
+          <app-create-binary-activity-parameter [parameter]="activityParameterService.getBinaryParameter(activityParameter)"></app-create-binary-activity-parameter>
+        </div>
+        <div class="row g-3" *ngIf="activityParameterService.isDateParameter(this.activityParameter)">
+          <app-create-date-activity-parameter [parameter]="activityParameterService.getDateParameter(activityParameter)"></app-create-date-activity-parameter>
+        </div>
+        <div class="row g-3" *ngIf="activityParameterService.isNumericParameter(this.activityParameter)">
+          <app-create-numeric-activity-parameter [parameter]="activityParameterService.getNumericParameter(activityParameter)"></app-create-numeric-activity-parameter>
+        </div>
+        <div class="row g-3" *ngIf="activityParameterService.isTextualParameter(this.activityParameter)">
+          <app-create-textual-activity-parameter [parameter]="activityParameterService.getTextualParameter(activityParameter)"></app-create-textual-activity-parameter>
+        </div>
+
+      </mat-card-content>
+    </mat-card>
+  </div>
+</mat-dialog-content>
+<div class="card-footer">
+  <mat-dialog-actions align="end" >
+    <button mat-stroked-button class="px-4" mat-dialog-close>Cancel</button>
+    <button mat-stroked-button class="px-4" (click)="save()">Submit</button>
+  </mat-dialog-actions>
+</div>

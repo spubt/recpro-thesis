@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 200,
+    "target_group": "Branchenexperten",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 12000,
+    "budget_location": 6000,
+    "budget_catering": 4500,
+    "budget_invitations": 1500,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 4500,
+    "catering_delivery_schedule": "2025-03-25T11:00:00Z",
+    "catering_provider": "Gourmet GmbH",
+    "catering_type": "Business Lunch",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Branchenaustausch",
+    "event_theme": "Mobilität der Zukunft",
+    "event_type": "Fachkonferenz",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-03-25T09:00:00Z",
+    "event_duration": 12,
+    "participants": 195,
+    "estimated_participants": 200,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 15,
+    "weather": "bewölkt",
+    "parkplatz": 250,
+    "noise": 68
+  },
+  "invitations": {
+    "budget_invitations": 1500,
+    "target_group": "Branchenexperten",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 6000,
+    "location": "Messezentrum",
+    "location_address": "Stuttgart",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 13,
+    "weather": "bewölkt",
+    "parkplatz": 250
+  },
+  "logistics": {
+    "logistics_provider": "Speedy Logistics",
+    "logistics_schedule": "2025-03-25T06:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 250
+  },
+  "prepare": {
+    "event_date": "2025-03-25T09:00:00Z",
+    "location": "Messezentrum",
+    "location_address": "Stuttgart",
+    "logistics_provider": "Speedy Logistics",
+    "logistics_schedule": "2025-03-25T06:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 15,
+    "weather": "bewölkt"
+  },
+  "report": {
+    "event_date": "2025-03-25T09:00:00Z",
+    "participants": 195,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

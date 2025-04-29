@@ -1,0 +1,7 @@
+<mat-form-field *ngIf="activityParameterInstance.value" class="w-100" appearance="outline">
+  <mat-label>{{activityParameter.label}}</mat-label>
+  <input matInput [matDatepicker]="datepicker" [(ngModel)]="activityParameterInstance.value" [disabled]="!executable"/>
+  <mat-hint>MM/DD/YYYY</mat-hint>
+  <mat-datepicker-toggle matIconSuffix [for]="datepicker"></mat-datepicker-toggle>
+  <mat-datepicker #datepicker></mat-datepicker>
+</mat-form-field>

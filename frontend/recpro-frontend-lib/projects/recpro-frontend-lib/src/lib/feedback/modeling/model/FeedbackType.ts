@@ -1,0 +1,7 @@
+export enum FeedbackType {
+  BINARY = 'BINARY',
+  CONTINUOUS = 'CONTINUOUS',
+  INTERVAL_BASED = 'INTERVAL_BASED',
+  ORDINAL = 'ORDINAL',
+  UNARY = 'UNARY'
+}

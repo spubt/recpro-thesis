@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 5000,
+    "target_group": "Öffentlichkeit",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 500000,
+    "budget_location": 250000,
+    "budget_catering": 150000,
+    "budget_invitations": 100000,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 150000,
+    "catering_delivery_schedule": "2025-05-10T07:00:00Z",
+    "catering_provider": "Gourmet GmbH",
+    "catering_type": "Streetfood",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Technologie-Präsentation",
+    "event_theme": "Digitalisierung",
+    "event_type": "Messe",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-05-10T08:00:00Z",
+    "event_duration": 36,
+    "participants": 4850,
+    "estimated_participants": 5000,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 20,
+    "weather": "sonnig",
+    "parkplatz": 3000,
+    "noise": 80
+  },
+  "invitations": {
+    "budget_invitations": 100000,
+    "target_group": "Öffentlichkeit",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 250000,
+    "location": "Messezentrum",
+    "location_address": "Stuttgart",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 19,
+    "weather": "leicht bewölkt",
+    "parkplatz": 3000
+  },
+  "logistics": {
+    "logistics_provider": "Speedy Logistics",
+    "logistics_schedule": "2025-05-09T20:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 3000
+  },
+  "prepare": {
+    "event_date": "2025-05-10T08:00:00Z",
+    "location": "Messezentrum",
+    "location_address": "Stuttgart",
+    "logistics_provider": "Speedy Logistics",
+    "logistics_schedule": "2025-05-09T20:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 20,
+    "weather": "sonnig"
+  },
+  "report": {
+    "event_date": "2025-05-10T08:00:00Z",
+    "participants": 4850,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

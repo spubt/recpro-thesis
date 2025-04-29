@@ -1,0 +1,93 @@
+<div class="container-3-content">
+  <div class="content-fit row g-3">
+    <h6 class="mb-0 text-uppercase">User Profile</h6>
+    <hr>
+  </div>
+
+  <div class="content-fit row g-3">
+    <mat-card>
+      <mat-card-content>
+        <div class="d-flex flex-row gap-3 align-items-center justify-content-between">
+          <div class="">
+            <h5 class="">Hello {{currentUser.firstName}} {{currentUser.lastName}}</h5>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <div class="content-fill row g-3">
+    <mat-card>
+      <mat-card-content>
+        <!--        Gender, FirstName, LastName-->
+        <div class="row g-3">
+          <div class="col-12 col-md-4">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Gender</mat-label>
+              <mat-select [(ngModel)]="currentUser.gender">
+                <mat-option *ngFor="let type of genderTypes" [value]="type">
+                  {{ type }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-4">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>First Name</mat-label>
+              <input matInput [(ngModel)]="currentUser.firstName">
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-4">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>Last Name</mat-label>
+              <input matInput [(ngModel)]="currentUser.lastName">
+            </mat-form-field>
+          </div>
+        </div>
+
+        <!--        Status, E-Mail, ID-->
+        <div class="row g-3">
+          <div class="col-12 col-md-4">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Status</mat-label>
+              <mat-select [(ngModel)]="currentUser.status">
+                <mat-option *ngFor="let type of userStatusTypes" [value]="type">
+                  {{ type }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-6">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>E-Mail</mat-label>
+              <input matInput [(ngModel)]="currentUser.email">
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-2">
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label>ID</mat-label>
+              <input matInput placeholder="Will be automatically generated" [(ngModel)]="currentUser.id" disabled="true">
+            </mat-form-field>
+          </div>
+        </div><!--end row-->
+
+        <div class="row g-3">
+          <div class="col-12 col-md-12">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>Application Roles</mat-label>
+              <mat-select [(ngModel)]="currentUser.roles" multiple>
+                <mat-option *ngFor="let role of applicationRoleTypes" [value]="role">
+                  {{ role }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+        </div>
+
+
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+</div>

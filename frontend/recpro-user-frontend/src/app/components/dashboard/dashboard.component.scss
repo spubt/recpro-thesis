@@ -1,0 +1,28 @@
+.list-view {
+  position: relative;
+  width: 200px;
+  height: 100vh;         // oder 100% in einem Container
+  background-color: #ccc;
+  transition: width 0.3s ease;
+
+  &.collapsed {
+    width: 60px;
+  }
+}
+
+.toggle-btn {
+  position: absolute;
+  right: -48px;
+  top: 45%;
+  transform: translateY(-50%) rotate(270deg);
+  transform-origin: center;
+  background-color: #fff;
+  border: 1px solid #888;
+  cursor: pointer;
+  padding: 4px 8px;
+
+  &.button-collapsed {
+    right: -10;
+  }
+  // optional: weitere Styles
+}

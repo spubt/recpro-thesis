@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 120,
+    "target_group": "IT Professionals"
+  },
+  "budget_planning": {
+    "budget_total": 2000,
+    "budget_location": 500,
+    "budget_catering": 300,
+    "budget_invitations": 200
+  },
+  "catering": {
+    "budget_catering": 300,
+    "catering_delivery_schedule": "2025-10-05T12:00:00Z",
+    "catering_provider": "Local Cafe",
+    "catering_type": "Snacks and Beverages"
+  },
+  "location": {
+    "budget_location": 500,
+    "location": "Company Headquarters",
+    "location_address": "Stuttgart"
+  },
+  "concept": {
+    "event_purpose": "Educational",
+    "event_theme": "Cyber Security",
+    "event_type": "Webinar"
+  },
+  "execute": {
+    "event_date": "2025-10-05T15:00:00Z",
+    "event_duration": 3,
+    "participants": 115,
+    "estimated_participants": 120
+  },
+  "invitations": {
+    "budget_invitations": 200,
+    "target_group": "IT Professionals"
+  },
+  "logistics": {
+    "logistics_provider": "TechEvent Solutions",
+    "logistics_schedule": "2025-10-05T13:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-10-05T15:00:00Z",
+    "location": "Company Headquarters",
+    "location_address": "Stuttgart",
+    "logistics_provider": "TechEvent Solutions",
+    "logistics_schedule": "2025-10-05T13:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-10-05T15:00:00Z",
+    "participants": 115
+  }
+}

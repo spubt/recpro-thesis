@@ -1,0 +1,84 @@
+/* Gesamtrahmen */
+.diagram-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid Layout */
+.container {
+  display: grid;
+  grid-template-rows: auto 100px; /* Zwei Reihen: obere Module und Analysis Module */
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  position: relative;
+  align-items: center; /* Zentriert Inhalte vertikal */
+}
+
+/* Module Design */
+.module {
+  background-color: #ffffff;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  height: 120px; /* Einheitliche Höhe für die oberen Module */
+  transition: all 0.3s ease;
+}
+
+/* Hover-Effekt für Module */
+.module:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Modulspezifische Positionierung */
+.input-module {
+  grid-column: 1 / 2;
+}
+
+.pre-filtering-module {
+  grid-column: 2 / 3;
+}
+
+.recommendation-module {
+  grid-column: 3 / 4;
+}
+
+.post-filtering-module {
+  grid-column: 4 / 5;
+}
+
+.output-module {
+  grid-column: 5 / 6;
+}
+
+/* Analysis Module */
+.analysis-module {
+  grid-column: 1 / 6; /* Überspannt die gesamte Breite */
+  grid-row: 2 / 3;
+  height: 80px; /* Eigene Höhe */
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

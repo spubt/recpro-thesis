@@ -1,0 +1,8 @@
+<div class="list-view" [ngClass]="{ 'collapsed': isCollapsed }">
+  <!-- Inhalt der Sidebar -->
+  Test
+  <div style="min-width: 250px"> lkasj asd asd as asd as dd as ldkjas asd asd asd </div>
+  <button (click)="toggleSidebar()" class="toggle-btn" [ngClass]="{ 'button-collapsed': isCollapsed }">
+    {{ isCollapsed ? 'open' : 'minimize' }}
+  </button>
+</div>

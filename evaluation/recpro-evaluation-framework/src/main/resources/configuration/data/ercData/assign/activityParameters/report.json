@@ -1,0 +1,38 @@
+[
+  {
+    "id": "report-binary-1",
+    "activity": {
+      "id":"report","name":"Abschlussbericht erstellen","description":null,"bpmsElementId":"report","roles":[]
+    },
+    "parameter":  {
+      "id": "event_date",
+      "label": "Datum",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "DATE",
+      "defaultValue": "2025-03-19T11:27:08.867494Z"
+    },
+    "parameterConfigurationType":"OUTPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "report-participants",
+    "activity": {
+      "id":"report","name":"Abschlussbericht erstellen","description":null,"bpmsElementId":"report","roles":[]
+    },
+    "parameter": {
+      "id": "participants",
+      "label": "Anzahl Teilnehmende",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 0
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  }
+]

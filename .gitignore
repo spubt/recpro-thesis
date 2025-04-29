@@ -1,0 +1,13 @@
+/evaluation/recpro-evaluation-framework/settings.xml
+/evaluation/recpro-evaluation-framework/src/main/resources/application-secrets.properties
+/backend/recpro-backend-application/settings.xml
+/backend/recpro-backend-lib/settings.xml
+
+.idea
+
+/backend/recpro-backend-application/settings.xml
+/backend/recpro-backend-lib/settings.xml
+/evaluation/recpro-evaluation-framework/settings.xml
+/evaluation/recpro-evaluation-framework/src/main/resources/application-secrets.properties
+
+

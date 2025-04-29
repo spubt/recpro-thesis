@@ -1,0 +1,12 @@
+Bitte gebe konkrete Werte für die Aktivitätsparameter der auszuführenden Aktivität aus! Dabei sollen realistische Werte generiert werden, die den Anforderungen an die Veranstaltung entsprechen. Die Vorlieben des Nutzenden sind hier nicht relevant!
+
+Das Ausgabeformat soll aussehen wie folgt:
+
+param_1 value_1
+param_2 value_2
+param_3 value_3
+....
+
+rating 3
+
+Bitte gebe nur die konkreten Werte aus und keinen zusätzlichen Text als Beschreibung!

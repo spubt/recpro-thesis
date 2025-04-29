@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 25,
+    "target_group": "Geschäftsführer",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 20000,
+    "budget_location": 10000,
+    "budget_catering": 8000,
+    "budget_invitations": 2000,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 8000,
+    "catering_delivery_schedule": "2025-04-20T17:00:00Z",
+    "catering_provider": "EventCuisine AG",
+    "catering_type": "5-Gänge-Menü",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Networking",
+    "event_theme": "Leadership",
+    "event_type": "Exklusiver Dinner-Abend",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-04-20T18:00:00Z",
+    "event_duration": 5,
+    "participants": 23,
+    "estimated_participants": 25,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 22,
+    "weather": "sonnig",
+    "parkplatz": 30,
+    "noise": 40
+  },
+  "invitations": {
+    "budget_invitations": 2000,
+    "target_group": "Geschäftsführer",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 10000,
+    "location": "Schloss Bellevue Lounge",
+    "location_address": "Berlin",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 21,
+    "weather": "sonnig",
+    "parkplatz": 30
+  },
+  "logistics": {
+    "logistics_provider": "Premium Logistics",
+    "logistics_schedule": "2025-04-20T15:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 30
+  },
+  "prepare": {
+    "event_date": "2025-04-20T18:00:00Z",
+    "location": "Schloss Bellevue Lounge",
+    "location_address": "Berlin",
+    "logistics_provider": "Premium Logistics",
+    "logistics_schedule": "2025-04-20T15:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 22,
+    "weather": "sonnig"
+  },
+  "report": {
+    "event_date": "2025-04-20T18:00:00Z",
+    "participants": 23,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

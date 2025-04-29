@@ -1,0 +1,62 @@
+[
+  {
+    "id": "execute_logistics",
+    "activity": {
+      "id": "execute",
+      "name": "Event durchführen",
+      "description": "",
+      "bpmsElementId": "execute",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "logistics",
+      "label": "Logistik",
+      "description": ""
+    }
+  },
+  {
+    "id": "execute_organisation",
+    "activity": {
+      "id": "execute",
+      "name": "Event durchführen",
+      "description": "",
+      "bpmsElementId": "execute",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "organisation",
+      "label": "Organisation",
+      "description": ""
+    }
+  },
+  {
+    "id": "execute_coordination",
+    "activity": {
+      "id": "execute",
+      "name": "Event durchführen",
+      "description": "",
+      "bpmsElementId": "execute",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "coordination",
+      "label": "Koordination",
+      "description": ""
+    }
+  },
+  {
+    "id": "execute_supply",
+    "activity": {
+      "id": "execute",
+      "name": "Event durchführen",
+      "description": "",
+      "bpmsElementId": "execute",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "supply",
+      "label": "Versorgung",
+      "description": ""
+    }
+  }
+]

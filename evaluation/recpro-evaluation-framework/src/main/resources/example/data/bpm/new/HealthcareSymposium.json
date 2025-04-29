@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 180,
+    "target_group": "medizinisches Fachpersonal",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 15000,
+    "budget_location": 7000,
+    "budget_catering": 6000,
+    "budget_invitations": 2000,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 6000,
+    "catering_delivery_schedule": "2025-04-10T10:30:00Z",
+    "catering_provider": "HealthFoods Catering",
+    "catering_type": "Gesundes Buffet",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Fortbildung",
+    "event_theme": "Digitale Gesundheit",
+    "event_type": "Symposium",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-04-10T11:00:00Z",
+    "event_duration": 10,
+    "participants": 175,
+    "estimated_participants": 180,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 14,
+    "weather": "regnerisch",
+    "parkplatz": 200,
+    "noise": 64
+  },
+  "invitations": {
+    "budget_invitations": 2000,
+    "target_group": "medizinisches Fachpersonal",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 7000,
+    "location": "Medical Conference Center",
+    "location_address": "Heidelberg",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 13,
+    "weather": "regnerisch",
+    "parkplatz": 200
+  },
+  "logistics": {
+    "logistics_provider": "MedLogistics",
+    "logistics_schedule": "2025-04-10T07:30:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 200
+  },
+  "prepare": {
+    "event_date": "2025-04-10T11:00:00Z",
+    "location": "Medical Conference Center",
+    "location_address": "Heidelberg",
+    "logistics_provider": "MedLogistics",
+    "logistics_schedule": "2025-04-10T07:30:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 14,
+    "weather": "regnerisch"
+  },
+  "report": {
+    "event_date": "2025-04-10T11:00:00Z",
+    "participants": 175,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

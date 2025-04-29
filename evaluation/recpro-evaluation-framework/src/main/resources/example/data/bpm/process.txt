@@ -1,0 +1,2 @@
+Der Prozess "Veranstaltungsplanung" hat folgende Aktivitäten mit folgenden Metaattributen und Aktivitätsparametern:
+Zielgruppenanalyse durchführen

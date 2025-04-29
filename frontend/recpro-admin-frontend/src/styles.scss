@@ -1,0 +1,114 @@
+/* You can add global styles to this file, and also import other style files */
+
+.active {
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.container-1-content {
+  display: grid;
+  grid-template-rows: auto;
+  height: 100%; /* Full viewport height */
+}
+
+.container-2-content {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%; /* Full viewport height */
+}
+
+.container-3-content {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  height: 100%; /* Full viewport height */
+}
+
+.container-4-content {
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  height: 100%; /* Full viewport height */
+}
+
+.container-auto-fill-auto {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+}
+
+.content-fit {
+  /* This div will take up as much space as needed */
+}
+
+.content-fill {
+  overflow-y: auto; /* Make sure this div can scroll if content overflows */
+  //background-color: lightgray; /* Optional: Add background color for clarity */
+}
+
+.full-height-card {
+  //height: 99%;
+  //max-height: 99%;
+  //overflow-y: auto;
+  height: 70vh;
+  max-height: 99%;
+}
+
+.card-footer {
+  border-top: 1px solid #ccc; /* Optional: Border to separate from content */
+}
+
+.card-content {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-header {
+  border-bottom: 1px solid #ccc; /* Optional: Grenze um vom Inhalt zu trennen */
+}
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: transparent !important;
+}
+
+.mdc-checkbox .mdc-checkbox__native-control:enabled:checked~.mdc-checkbox__background {
+  background-color: #009B91 !important;
+  border-color: #009B91 !important;
+}
+
+.highlight-background-color {
+  background-color: #009B91;
+}
+
+.highlight-color {
+  color: #009B91;
+}
+
+.highlight-background-color-blue {
+  background-color: #17406D;
+}
+
+.highlight-color-blue {
+  color: #17406D;
+}
+
+.centered-text {
+  text-align: center;      /* Zentriert den Text horizontal */
+  width: 100%;             /* Setzt die Breite auf 100%, falls nicht bereits gesetzt */
+  display: flex;           /* Nutzt Flexbox für das Zentrieren */
+  justify-content: center; /* Zentriert den Inhalt horizontal innerhalb des Flex-Containers */
+  align-items: center;     /* Zentriert den Inhalt vertikal innerhalb des Flex-Containers */
+}
+
+::ng-deep .mat-button-toggle.selected {
+  background-color: #2196F3; /* Ändere dies zu deiner gewünschten Farbe */
+  color: white; /* Ändere dies zu deiner gewünschten Textfarbe */
+}
+
+::ng-deep .mat-button-toggle.selected .mat-icon {
+  color: white; /* Ändere dies zu deiner gewünschten Icon-Farbe */
+}
+
+.custom-dialog-container {
+  border-radius: 4px;
+  padding: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}

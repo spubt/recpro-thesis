@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 20,
+    "target_group": "High-Value Clients"
+  },
+  "budget_planning": {
+    "budget_total": 5000,
+    "budget_location": 3000,
+    "budget_catering": 1500,
+    "budget_invitations": 500
+  },
+  "catering": {
+    "budget_catering": 1500,
+    "catering_delivery_schedule": "2025-11-25T19:00:00Z",
+    "catering_provider": "Fine Dining Catering",
+    "catering_type": "Gourmet"
+  },
+  "location": {
+    "budget_location": 3000,
+    "location": "Private Dining Room",
+    "location_address": "Frankfurt"
+  },
+  "concept": {
+    "event_purpose": "Client Retention",
+    "event_theme": "Exclusive Engagement",
+    "event_type": "Dinner"
+  },
+  "execute": {
+    "event_date": "2025-11-25T18:00:00Z",
+    "event_duration": 4,
+    "participants": 18,
+    "estimated_participants": 20
+  },
+  "invitations": {
+    "budget_invitations": 500,
+    "target_group": "High-Value Clients"
+  },
+  "logistics": {
+    "logistics_provider": "Premium Event Services",
+    "logistics_schedule": "2025-11-25T17:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-11-25T18:00:00Z",
+    "location": "Private Dining Room",
+    "location_address": "Frankfurt",
+    "logistics_provider": "Premium Event Services",
+    "logistics_schedule": "2025-11-25T17:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-11-25T18:00:00Z",
+    "participants": 18
+  }
+}

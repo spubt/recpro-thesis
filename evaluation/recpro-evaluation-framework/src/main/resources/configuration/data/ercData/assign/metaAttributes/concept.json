@@ -1,0 +1,77 @@
+[
+  {
+    "id": "concept_analysis",
+    "activity": {
+      "id": "concept",
+      "name": "Konzept erstellen",
+      "description": "",
+      "bpmsElementId": "concept",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "analysis",
+      "label": "Analyse",
+      "description": ""
+    }
+  },
+  {
+    "id": "concept_creativity",
+    "activity": {
+      "id": "concept",
+      "name": "Konzept erstellen",
+      "description": "",
+      "bpmsElementId": "concept",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "creativity",
+      "label": "Kreativität",
+      "description": ""
+    }
+  },
+  {
+    "id": "concept_planning",
+    "activity": {
+      "id": "concept",
+      "name": "Konzept erstellen",
+      "description": "",
+      "bpmsElementId": "concept",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "planning",
+      "label": "Planung",
+      "description": ""
+    }
+  },
+  {
+    "id": "concept_organisation",
+    "activity": {
+      "id": "concept",
+      "name": "Konzept erstellen",
+      "description": "",
+      "bpmsElementId": "concept",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "organisation",
+      "label": "Organisation",
+      "description": ""
+    }
+  },
+  {
+    "id": "concept_event_management_system",
+    "activity": {
+      "id": "concept",
+      "name": "Konzept erstellen",
+      "description": "",
+      "bpmsElementId": "concept",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "event_management_system",
+      "label": "Event Management System",
+      "description": ""
+    }
+  }
+]

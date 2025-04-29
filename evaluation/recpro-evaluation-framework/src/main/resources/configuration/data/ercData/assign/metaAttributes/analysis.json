@@ -1,0 +1,47 @@
+[
+  {
+    "id": "analysis_analysis",
+    "activity": {
+      "id": "analysis",
+      "name": "Zielgruppen-analyse durchführen",
+      "description": "",
+      "bpmsElementId": "analysis",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "analysis",
+      "label": "Analyse",
+      "description": ""
+    }
+  },
+  {
+    "id": "analysis_planning",
+    "activity": {
+      "id": "analysis",
+      "name": "Zielgruppen-analyse durchführen",
+      "description": "",
+      "bpmsElementId": "analysis",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "planning",
+      "label": "Planung",
+      "description": ""
+    }
+  },
+  {
+    "id": "analysis_excel",
+    "activity": {
+      "id": "analysis",
+      "name": "Zielgruppen-analyse durchführen",
+      "description": "",
+      "bpmsElementId": "analysis",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "excel",
+      "label": "Excel",
+      "description": ""
+    }
+  }
+]

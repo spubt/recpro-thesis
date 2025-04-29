@@ -1,0 +1,59 @@
+<div class="container-3-content">
+  <div class="row g-3 full-height-card">
+    <mat-card>
+      <div class="container-auto-fill-auto">
+        <mat-card-header class="card-header content-fit">
+          Add existing:
+        </mat-card-header>
+        <mat-card-content class="content-fill card-content">
+          <div class="row">
+            <div class="col-12">
+              <mat-form-field appearance="outline">
+                <mat-label>Select Parameter</mat-label>
+                <mat-select [(ngModel)]="selectedActivityParameter">
+                  <mat-option *ngFor="let param of activityParameters" [value]="param">
+                    {{ param.label }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <mat-form-field appearance="outline">
+                <mat-label>Select Type</mat-label>
+                <mat-select [(ngModel)]="activityParameterConfiguration.parameterConfigurationType">
+                  <mat-option [value]="ActivityParameterConfigurationType.INPUT">Input</mat-option>
+                  <mat-option [value]="ActivityParameterConfigurationType.OUTPUT">Output</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <mat-form-field appearance="outline">
+                <mat-label>Position</mat-label>
+                <input matInput [(ngModel)]="activityParameterConfiguration.position">
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <mat-form-field appearance="outline">
+                <mat-label>Width</mat-label>
+                <input matInput [(ngModel)]="activityParameterConfiguration.width">
+              </mat-form-field>
+            </div>
+          </div>
+        </mat-card-content>
+        <mat-card-footer class="card-footer content-fit">
+          <mat-card-actions  align="end">
+            <button mat-button (click)="addActivityParameterConfiguration()">
+              Add
+            </button>
+          </mat-card-actions>
+        </mat-card-footer>
+      </div>
+    </mat-card>
+  </div>
+</div>

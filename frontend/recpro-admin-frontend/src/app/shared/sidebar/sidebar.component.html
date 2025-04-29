@@ -1,0 +1,62 @@
+<aside class="sidebar-wrapper mat-elevation-z9" [ngClass]="{'mini-sidebar' : getSideBarSate()}">
+  <div class="sidebar-header">
+    <img ngSrc="assets/images/logo/logo.svg" alt="RECPRO" height="33" width="200" priority>
+
+  </div>
+  <nav class="sidebar-menu">
+
+    <mat-accordion class="example-headers-align" multi>
+      <mat-nav-list routerLinkActive="active">
+        <a mat-list-item routerLink="/dashboard"><mat-icon class="material-icons-outlined">dashboard</mat-icon>Admin - Dashboard</a>
+      </mat-nav-list>
+      <mat-expansion-panel [class.mat-elevation-z0]="true" expanded="true">
+        <mat-expansion-panel-header [ngClass]="{'active': isPanelActive('/config/')}" >
+          <mat-icon class="material-icons-outlined">dashboard</mat-icon>Configuration
+        </mat-expansion-panel-header>
+        <mat-nav-list>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/bpm/modeling" ><mat-icon>arrow_right</mat-icon>BPM</a>
+          </div>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/erc-data/modeling" ><mat-icon>arrow_right</mat-icon>ERC-Data</a>
+          </div>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/feedback/modeling" ><mat-icon>arrow_right</mat-icon>Feedback</a>
+          </div>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/recommendation/modeling" ><mat-icon>arrow_right</mat-icon>Recommendation</a>
+          </div>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/users/modeling" ><mat-icon>arrow_right</mat-icon>Users</a>
+          </div>
+        </mat-nav-list>
+      </mat-expansion-panel>
+      <mat-expansion-panel [class.mat-elevation-z0]="true" expanded="true">
+        <mat-expansion-panel-header [ngClass]="{'active': isPanelActive('/analysis')}">
+          <mat-icon class="material-icons-outlined">dashboard</mat-icon>Analysis
+        </mat-expansion-panel-header>
+        <mat-nav-list>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/bpm/analysis" ><mat-icon>arrow_right</mat-icon>BPM</a>
+          </div>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/erc-data/analysis" ><mat-icon>arrow_right</mat-icon>ERC-Data</a>
+          </div>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/feedback/analysis" ><mat-icon>arrow_right</mat-icon>Feedback</a>
+          </div>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/dimensions/analysis" ><mat-icon>arrow_right</mat-icon>Dimensions</a>
+          </div>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/recommendation/analysis" ><mat-icon>arrow_right</mat-icon>Recommendation</a>
+          </div>
+          <div routerLinkActive="active">
+            <a mat-list-item routerLink="/users/analysis" ><mat-icon>arrow_right</mat-icon>Users</a>
+          </div>
+        </mat-nav-list>
+      </mat-expansion-panel>
+    </mat-accordion>
+
+  </nav>
+</aside>

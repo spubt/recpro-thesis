@@ -1,0 +1,83 @@
+[
+  {
+    "id": "location-date",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "parameter":
+    {
+      "parameterType":"DATE","id":"date","label":"Datum und Uhrzeit","description":"","source":"http://localhost:8085/erc/envParams/date","bpmsAttributeId":"","visibility":"true","defaultValue":"2025-03-19T11:27:08.867494Z"
+    },
+    "source":"http://localhost:8085/erc/envParams/date"
+  },
+  {
+    "id": "location-temperature",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "parameter":
+    {
+      "id": "temperature",
+      "label": "Temperatur",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "source": "http://localhost:8085/erc/envParams/temperature",
+      "visibility": true,
+      "defaultValue": 20
+    },
+    "source":"http://localhost:8085/erc/envParams/temperature-location"
+  },
+  {
+    "id": "location-weather",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "parameter":
+    {
+      "id": "weather",
+      "label": "Wetterbedingungen",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "source": "http://localhost:8085/erc/envParams/weather",
+      "visibility": true,
+      "defaultValue": "sonnig"
+    },
+    "source":"http://localhost:8085/erc/envParams/weather-location"
+  },
+  {
+    "id": "location-parkplatz",
+    "activity": {
+      "id": "location",
+      "name": "Location auswählen",
+      "description": "",
+      "bpmsElementId": "location",
+      "roles": []
+    },
+    "parameter":
+    {
+      "id": "parkplatz",
+      "label": "Parkplatzverfügbarkeit",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "source": "http://localhost:8085/erc/envParams/parkplatz",
+      "visibility": true,
+      "defaultValue": 42
+    },
+    "source":"http://localhost:8085/erc/envParams/parkplatz-location"
+  }
+]

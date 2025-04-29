@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 800,
+    "target_group": "Öffentlichkeit",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 25000,
+    "budget_location": 10000,
+    "budget_catering": 10000,
+    "budget_invitations": 5000,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 10000,
+    "catering_delivery_schedule": "2025-06-05T10:00:00Z",
+    "catering_provider": "GreenEats Catering",
+    "catering_type": "Streetfood",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Kulturförderung",
+    "event_theme": "Kultur",
+    "event_type": "Festival",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-06-05T12:00:00Z",
+    "event_duration": 10,
+    "participants": 780,
+    "estimated_participants": 800,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 24,
+    "weather": "sonnig",
+    "parkplatz": 500,
+    "noise": 85
+  },
+  "invitations": {
+    "budget_invitations": 5000,
+    "target_group": "Öffentlichkeit",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 10000,
+    "location": "Stadtpark Bühnenareal",
+    "location_address": "Hamburg",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 23,
+    "weather": "sonnig",
+    "parkplatz": 500
+  },
+  "logistics": {
+    "logistics_provider": "EcoLogistics GmbH",
+    "logistics_schedule": "2025-06-05T07:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 500
+  },
+  "prepare": {
+    "event_date": "2025-06-05T12:00:00Z",
+    "location": "Stadtpark Bühnenareal",
+    "location_address": "Hamburg",
+    "logistics_provider": "EcoLogistics GmbH",
+    "logistics_schedule": "2025-06-05T07:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 24,
+    "weather": "sonnig"
+  },
+  "report": {
+    "event_date": "2025-06-05T12:00:00Z",
+    "participants": 780,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

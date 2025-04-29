@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 300,
+    "target_group": "Healthcare Professionals"
+  },
+  "budget_planning": {
+    "budget_total": 25000,
+    "budget_location": 15000,
+    "budget_catering": 5000,
+    "budget_invitations": 5000
+  },
+  "catering": {
+    "budget_catering": 5000,
+    "catering_delivery_schedule": "2025-09-10T12:00:00Z",
+    "catering_provider": "Street Food Vendors",
+    "catering_type": "Diverse"
+  },
+  "location": {
+    "budget_location": 15000,
+    "location": "Exhibition Center",
+    "location_address": "Munich"
+  },
+  "concept": {
+    "event_purpose": "Exhibition",
+    "event_theme": "Healthcare Technology",
+    "event_type": "Trade Show"
+  },
+  "execute": {
+    "event_date": "2025-09-10T09:00:00Z",
+    "event_duration": 8,
+    "participants": 280,
+    "estimated_participants": 300
+  },
+  "invitations": {
+    "budget_invitations": 5000,
+    "target_group": "Healthcare Professionals"
+  },
+  "logistics": {
+    "logistics_provider": "EventPro Logistics",
+    "logistics_schedule": "2025-09-10T07:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-09-10T09:00:00Z",
+    "location": "Exhibition Center",
+    "location_address": "Munich",
+    "logistics_provider": "EventPro Logistics",
+    "logistics_schedule": "2025-09-10T07:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-09-10T09:00:00Z",
+    "participants": 280
+  }
+}

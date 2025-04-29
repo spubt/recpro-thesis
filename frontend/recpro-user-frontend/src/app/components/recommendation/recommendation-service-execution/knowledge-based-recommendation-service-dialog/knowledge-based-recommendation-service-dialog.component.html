@@ -1,0 +1,40 @@
+<div class="card-header">
+  <h2 mat-dialog-title>Custom Criteria Filtering</h2>
+</div>
+<mat-dialog-content class="mat-typography">
+  <div class="col-12" style="height: 100%">
+    <mat-tab-group animationDuration="1000ms" style="height: 100%">
+      <mat-tab label="Metaattributes" style="height: 100%">
+        <mat-card style="height: 93%; margin: 10pt;">
+          <mat-card-content>
+            <app-kbr-meta-attributes></app-kbr-meta-attributes>
+          </mat-card-content>
+        </mat-card>
+
+      </mat-tab>
+      <mat-tab label="Activity Parameters">
+        <mat-card style="height: 93%; margin: 10pt;">
+          <mat-card-content>
+            <app-kbr-activity-parameters [recommendationServiceInstanceInput]="recommendationServiceInstance"></app-kbr-activity-parameters>
+          </mat-card-content>
+        </mat-card>
+
+      </mat-tab>
+      <mat-tab label="Environmental Parameters">
+        <mat-card style="height: 93%; margin: 10pt;">
+          <mat-card-content>
+            <app-kbr-environmental-parameters></app-kbr-environmental-parameters>
+          </mat-card-content>
+        </mat-card>
+
+      </mat-tab>
+    </mat-tab-group>
+
+  </div>
+</mat-dialog-content>
+<div class="card-footer">
+  <mat-dialog-actions align="end" >
+    <button mat-stroked-button class="px-4" mat-dialog-close>Cancel</button>
+    <button mat-stroked-button class="px-4" (click)="save()">Submit</button>
+  </mat-dialog-actions>
+</div>

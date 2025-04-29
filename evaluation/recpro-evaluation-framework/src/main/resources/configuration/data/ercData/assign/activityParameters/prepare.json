@@ -1,0 +1,92 @@
+[
+  {
+    "id": "prepare-event_date",
+    "activity": {
+      "id":"prepare","name":"Event vorbereiten","description":null,"bpmsElementId":"prepare","roles":[]
+    },
+    "parameter":   {
+      "id": "event_date",
+      "label": "Datum",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "DATE",
+      "defaultValue": "2025-03-19T11:27:08.867494Z"
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "prepare-location",
+    "activity": {
+      "id":"prepare","name":"Event vorbereiten","description":null,"bpmsElementId":"prepare","roles":[]
+    },
+    "parameter":     {
+      "id": "location",
+      "label": "Veranstaltungsort",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "prepare-location_address",
+    "activity": {
+      "id":"prepare","name":"Event vorbereiten","description":null,"bpmsElementId":"prepare","roles":[]
+    },
+    "parameter":  {
+      "id": "location_address",
+      "label": "Ort der Veranstaltung",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": "Bayreuth"
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "prepare-logistics_provider",
+    "activity": {
+      "id":"prepare","name":"Event vorbereiten","description":null,"bpmsElementId":"prepare","roles":[]
+    },
+    "parameter":  {
+      "id": "logistics_provider",
+      "label": "Logistikdienstleister",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "TEXTUAL",
+      "defaultValue": ""
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "prepare-logistics_schedule",
+    "activity": {
+      "id":"prepare","name":"Event vorbereiten","description":null,"bpmsElementId":"prepare","roles":[]
+    },
+    "parameter":  {
+      "id": "logistics_schedule",
+      "label": "Datum aufbau",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "DATE",
+      "defaultValue": "2025-03-19T11:27:08.867494Z"
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  }
+]

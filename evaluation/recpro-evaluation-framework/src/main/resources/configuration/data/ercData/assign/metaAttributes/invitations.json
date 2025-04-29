@@ -1,0 +1,77 @@
+[
+  {
+    "id": "invitations_creativity",
+    "activity": {
+      "id": "invitations",
+      "name": "Einladungen erstellen und versenden",
+      "description": "",
+      "bpmsElementId": "invitations",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "creativity",
+      "label": "Kreativität",
+      "description": ""
+    }
+  },
+  {
+    "id": "invitations_organisation",
+    "activity": {
+      "id": "invitations",
+      "name": "Einladungen erstellen und versenden",
+      "description": "",
+      "bpmsElementId": "invitations",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "organisation",
+      "label": "Organisation",
+      "description": ""
+    }
+  },
+  {
+    "id": "invitations_excel",
+    "activity": {
+      "id": "invitations",
+      "name": "Einladungen erstellen und versenden",
+      "description": "",
+      "bpmsElementId": "invitations",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "excel",
+      "label": "Excel",
+      "description": ""
+    }
+  },
+  {
+    "id": "invitations_mail",
+    "activity": {
+      "id": "invitations",
+      "name": "Einladungen erstellen und versenden",
+      "description": "",
+      "bpmsElementId": "invitations",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "mail",
+      "label": "E-Mail",
+      "description": ""
+    }
+  },
+  {
+    "id": "invitations_word",
+    "activity": {
+      "id": "invitations",
+      "name": "Einladungen erstellen und versenden",
+      "description": "",
+      "bpmsElementId": "invitations",
+      "roles": []
+    },
+    "metaAttribute": {
+      "id": "word",
+      "label": "Word",
+      "description": ""
+    }
+  }
+]

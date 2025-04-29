@@ -1,0 +1,751 @@
+[ {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "Networking",
+  "rating" : 7.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "Kulturfestival",
+  "rating" : 4.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "Bildung",
+  "rating" : 9.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "ExecutiveCircle",
+  "rating" : 6.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "StartupBreakfast",
+  "rating" : 7.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 6.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "Networking",
+  "rating" : 9.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "Innovationsforum",
+  "rating" : 7.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "StartupDay",
+  "rating" : 6.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "StartupBreakfast",
+  "rating" : 4.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "StartupDay",
+  "rating" : 4.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "KreativWorkshop",
+  "rating" : 9.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "DigitaleTransformation",
+  "rating" : 6.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "report",
+  "event" : "Mobilitätskongress",
+  "rating" : 5.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "TechExpo",
+  "rating" : 7.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "Networking",
+  "rating" : 4.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "Kulturfestival",
+  "rating" : 4.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "Bildung",
+  "rating" : 3.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "Bildung",
+  "rating" : 4.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 5.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "TechExpo",
+  "rating" : 6.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "report",
+  "event" : "Innovationsforum",
+  "rating" : 5.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "location",
+  "event" : "KreativWorkshop",
+  "rating" : 4.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "HealthcareSymposium",
+  "rating" : 6.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "TechExpo",
+  "rating" : 6.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "Bildung",
+  "rating" : 7.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "Karrieremesse",
+  "rating" : 4.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "Kulturfestival",
+  "rating" : 6.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "ExecutiveCircle",
+  "rating" : 6.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "ExecutiveCircle",
+  "rating" : 5.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "HealthcareSymposium",
+  "rating" : 8.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "report",
+  "event" : "StartupBreakfast",
+  "rating" : 6.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "location",
+  "event" : "Bildung",
+  "rating" : 7.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "ExecutiveCircle",
+  "rating" : 4.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 4.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "Mobilitätskongress",
+  "rating" : 7.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 6.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "report",
+  "event" : "StartupDay",
+  "rating" : 4.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "report",
+  "event" : "Kulturfestival",
+  "rating" : 5.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "report",
+  "event" : "ExecutiveCircle",
+  "rating" : 4.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "DigitaleTransformation",
+  "rating" : 6.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "HealthcareSymposium",
+  "rating" : 7.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "Innovationsforum",
+  "rating" : 3.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "TechNetworking",
+  "rating" : 6.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 7.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "report",
+  "event" : "TechNetworking",
+  "rating" : 3.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "Karrieremesse",
+  "rating" : 4.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "HealthcareSymposium",
+  "rating" : 8.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "KreativWorkshop",
+  "rating" : 4.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 6.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "StartupBreakfast",
+  "rating" : 4.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "Karrieremesse",
+  "rating" : 6.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "StartupBreakfast",
+  "rating" : 6.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "location",
+  "event" : "DigitaleTransformation",
+  "rating" : 7.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "report",
+  "event" : "Networking",
+  "rating" : 5.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "StartupDay",
+  "rating" : 3.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "report",
+  "event" : "KreativWorkshop",
+  "rating" : 6.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "Networking",
+  "rating" : 6.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "Networking",
+  "rating" : 2.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "location",
+  "event" : "Karrieremesse",
+  "rating" : 5.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "Innovationsforum",
+  "rating" : 7.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "Kulturfestival",
+  "rating" : 3.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "KreativWorkshop",
+  "rating" : 7.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "Karrieremesse",
+  "rating" : 7.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "TechNetworking",
+  "rating" : 9.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "location",
+  "event" : "Mobilitätskongress",
+  "rating" : 4.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "Networking",
+  "rating" : 3.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "TechExpo",
+  "rating" : 8.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "StartupDay",
+  "rating" : 3.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "DigitaleTransformation",
+  "rating" : 2.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "Mobilitätskongress",
+  "rating" : 6.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "ExecutiveCircle",
+  "rating" : 4.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "KreativWorkshop",
+  "rating" : 7.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "TechExpo",
+  "rating" : 7.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "ExecutiveCircle",
+  "rating" : 6.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "Mobilitätskongress",
+  "rating" : 3.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "Innovationsforum",
+  "rating" : 7.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 4.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "ExecutiveCircle",
+  "rating" : 4.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "Karrieremesse",
+  "rating" : 3.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "TechNetworking",
+  "rating" : 4.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "Kulturfestival",
+  "rating" : 4.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "Karrieremesse",
+  "rating" : 5.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "Innovationsforum",
+  "rating" : 7.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "HealthcareSymposium",
+  "rating" : 6.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "DigitaleTransformation",
+  "rating" : 8.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "HealthcareSymposium",
+  "rating" : 8.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "Mobilitätskongress",
+  "rating" : 4.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "ExecutiveCircle",
+  "rating" : 8.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "Innovationsforum",
+  "rating" : 4.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "report",
+  "event" : "HealthcareSymposium",
+  "rating" : 5.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "DigitaleTransformation",
+  "rating" : 8.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "HealthcareSymposium",
+  "rating" : 9.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "Kulturfestival",
+  "rating" : 6.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "TechNetworking",
+  "rating" : 7.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "StartupBreakfast",
+  "rating" : 8.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "Innovationsforum",
+  "rating" : 8.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "report",
+  "event" : "Karrieremesse",
+  "rating" : 5.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "report",
+  "event" : "DigitaleTransformation",
+  "rating" : 6.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "Mobilitätskongress",
+  "rating" : 9.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "StartupBreakfast",
+  "rating" : 4.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "TechNetworking",
+  "rating" : 4.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "StartupBreakfast",
+  "rating" : 6.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "report",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 6.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "KreativWorkshop",
+  "rating" : 6.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "Kulturfestival",
+  "rating" : 6.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "StartupBreakfast",
+  "rating" : 3.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "Innovationsforum",
+  "rating" : 6.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "StartupDay",
+  "rating" : 6.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "TechExpo",
+  "rating" : 8.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "KreativWorkshop",
+  "rating" : 7.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "Bildung",
+  "rating" : 3.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "Bildung",
+  "rating" : 7.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 3.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "Bildung",
+  "rating" : 6.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "Networking",
+  "rating" : 4.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "catering",
+  "event" : "Mobilitätskongress",
+  "rating" : 6.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "TechNetworking",
+  "rating" : 4.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "DigitaleTransformation",
+  "rating" : 6.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "Networking",
+  "rating" : 3.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "TechExpo",
+  "rating" : 3.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "Kulturfestival",
+  "rating" : 3.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "StartupDay",
+  "rating" : 6.0
+}, {
+  "mail" : "max.mustermann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "TechNetworking",
+  "rating" : 6.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "concept",
+  "event" : "StartupDay",
+  "rating" : 6.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "HealthcareSymposium",
+  "rating" : 7.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "ExecutiveCircle",
+  "rating" : 7.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "Innovationsforum",
+  "rating" : 8.0
+}, {
+  "mail" : "katharina.schneider@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "Mobilitätskongress",
+  "rating" : 7.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "Kulturfestival",
+  "rating" : 6.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "KreativWorkshop",
+  "rating" : 4.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "StartupDay",
+  "rating" : 5.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "StartupDay",
+  "rating" : 6.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "HealthcareSymposium",
+  "rating" : 5.0
+}, {
+  "mail" : "alexander.berger@recpro.com.de",
+  "activityId" : "logistics",
+  "event" : "TechExpo",
+  "rating" : 3.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "TechExpo",
+  "rating" : 3.0
+}, {
+  "mail" : "nobby.nic@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "Bildung",
+  "rating" : 7.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "DigitaleTransformation",
+  "rating" : 9.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "Karrieremesse",
+  "rating" : 7.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "Karrieremesse",
+  "rating" : 8.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "report",
+  "event" : "Bildung",
+  "rating" : 6.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "TechNetworking",
+  "rating" : 7.0
+}, {
+  "mail" : "fabian.muller@recpro.com.de",
+  "activityId" : "analysis",
+  "event" : "StartupBreakfast",
+  "rating" : 6.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "budget_planning",
+  "event" : "KreativWorkshop",
+  "rating" : 6.0
+}, {
+  "mail" : "julia.fischer@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "Mobilitätskongress",
+  "rating" : 5.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "location",
+  "event" : "Networking",
+  "rating" : 6.0
+}, {
+  "mail" : "laura.beckmann@recpro.com.de",
+  "activityId" : "invitations",
+  "event" : "DigitaleTransformation",
+  "rating" : 5.0
+}, {
+  "mail" : "markus.lehmann@recpro.com.de",
+  "activityId" : "report",
+  "event" : "TechExpo",
+  "rating" : 2.0
+}, {
+  "mail" : "marie.sonnenschein@recpro.com.de",
+  "activityId" : "execute",
+  "event" : "Nachhaltigkeitsforum",
+  "rating" : 6.0
+}, {
+  "mail" : "lisa.baumann@recpro.com.de",
+  "activityId" : "prepare",
+  "event" : "TechNetworking",
+  "rating" : 6.0
+} ]

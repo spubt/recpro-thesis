@@ -1,0 +1,73 @@
+{
+  "analysis": {
+    "estimated_participants": 100,
+    "target_group": "Startups",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "budget_planning": {
+    "budget_total": 8000,
+    "budget_location": 3500,
+    "budget_catering": 3000,
+    "budget_invitations": 1500,
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "catering": {
+    "budget_catering": 3000,
+    "catering_delivery_schedule": "2025-04-15T17:00:00Z",
+    "catering_provider": "EventCuisine AG",
+    "catering_type": "Fingerfood",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "concept": {
+    "event_purpose": "Networking",
+    "event_theme": "Digitalisierung",
+    "event_type": "Meetup",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "execute": {
+    "event_date": "2025-04-15T18:00:00Z",
+    "event_duration": 6,
+    "participants": 95,
+    "estimated_participants": 100,
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 21,
+    "weather": "sonnig",
+    "parkplatz": 100,
+    "noise": 60
+  },
+  "invitations": {
+    "budget_invitations": 1500,
+    "target_group": "Startups",
+    "date": "2025-03-19T11:27:08.867494Z"
+  },
+  "location": {
+    "budget_location": 3500,
+    "location": "Coworking Space Innovate",
+    "location_address": "Frankfurt am Main",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 20,
+    "weather": "sonnig",
+    "parkplatz": 100
+  },
+  "logistics": {
+    "logistics_provider": "CityLogistics",
+    "logistics_schedule": "2025-04-15T15:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "parkplatz": 100
+  },
+  "prepare": {
+    "event_date": "2025-04-15T18:00:00Z",
+    "location": "Coworking Space Innovate",
+    "location_address": "Frankfurt am Main",
+    "logistics_provider": "CityLogistics",
+    "logistics_schedule": "2025-04-15T15:00:00Z",
+    "date": "2025-03-19T11:27:08.867494Z",
+    "temperature": 21,
+    "weather": "sonnig"
+  },
+  "report": {
+    "event_date": "2025-04-15T18:00:00Z",
+    "participants": 95,
+    "date": "2025-03-19T11:27:08.867494Z"
+  }
+}

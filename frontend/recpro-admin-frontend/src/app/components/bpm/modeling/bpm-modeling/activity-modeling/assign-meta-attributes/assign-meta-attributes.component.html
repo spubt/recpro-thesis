@@ -1,0 +1,23 @@
+<h2 mat-dialog-title>Metaattributes ({{activity.name}}):</h2>
+
+<mat-dialog-content class="mat-typography">
+  <div class="row">
+    <div class="col-6">
+      <app-activity-meta-attribute-table [metaAttributes]="selectedMetaAttributes" (removeMetaAttribute)="removeAttribute($event)"></app-activity-meta-attribute-table>
+    </div>
+    <div class="col-6">
+      <div class="row">
+        <div class="col-12">
+          <app-select-meta-attribute [metaAttributes]="availableMetaAttributes" (selectedAttributeChange)="selectAttribute($event)"></app-select-meta-attribute>
+        </div>
+      </div>
+    </div>
+  </div>
+</mat-dialog-content>
+
+<div class="card-footer">
+  <mat-dialog-actions align="end" >
+    <button mat-stroked-button class="px-4" mat-dialog-close>Cancel</button>
+    <button mat-stroked-button class="px-4" (click)="submit()">Submit</button>
+  </mat-dialog-actions>
+</div>

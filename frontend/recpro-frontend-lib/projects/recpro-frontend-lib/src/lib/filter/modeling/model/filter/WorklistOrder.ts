@@ -1,0 +1,6 @@
+export enum WorklistOrder {
+  CREATE_DATE = 'CREATE_DATE',
+  DUE_DATE = 'DUE_DATE',
+  // LIKELINESS = 'LIKELINESS',
+  PRIORITY = 'PRIORITY'
+}

@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "estimated_participants": 500,
+    "target_group": "Tech Enthusiasts"
+  },
+  "budget_planning": {
+    "budget_total": 20000,
+    "budget_location": 10000,
+    "budget_catering": 8000,
+    "budget_invitations": 2000
+  },
+  "catering": {
+    "budget_catering": 8000,
+    "catering_delivery_schedule": "2025-06-20T12:00:00Z",
+    "catering_provider": "Gourmet Feast",
+    "catering_type": "Full Service"
+  },
+  "location": {
+    "budget_location": 10000,
+    "location": "Convention Hall",
+    "location_address": "Berlin"
+  },
+  "concept": {
+    "event_purpose": "Educational",
+    "event_theme": "Artificial Intelligence",
+    "event_type": "Conference"
+  },
+  "execute": {
+    "event_date": "2025-06-20T10:00:00Z",
+    "event_duration": 8,
+    "participants": 450,
+    "estimated_participants": 500
+  },
+  "invitations": {
+    "budget_invitations": 2000,
+    "target_group": "Tech Enthusiasts"
+  },
+  "logistics": {
+    "logistics_provider": "National Logistics",
+    "logistics_schedule": "2025-06-20T07:00:00Z"
+  },
+  "prepare": {
+    "event_date": "2025-06-20T10:00:00Z",
+    "location": "Convention Hall",
+    "location_address": "Berlin",
+    "logistics_provider": "National Logistics",
+    "logistics_schedule": "2025-06-20T07:00:00Z"
+  },
+  "report": {
+    "event_date": "2025-06-20T10:00:00Z",
+    "participants": 450
+  }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "DEFAULT",
+    "name": "Standard Recommendation Service ",
+    "description": "Grundlegende Sortierung nach Erstellungsdatum oder Priorität.",
+    "url": "http://localhost:8088/recommendation/default",
+    "recommendationType": "BASE",
+    "dimensions": [
+    ]
+  },
+  {
+    "id": "KNOWLEDGE_BASED_WITH_TEMPERATURE",
+    "name": "Custom Criteria Filtering ",
+    "description": "Ermöglicht die Suche nach bestimmten Parameterwerten.",
+    "url": "http://localhost:8088/recommendation/knowledge-based",
+    "recommendationType": "KNOWLEDGE_BASED",
+    "dimensions": [
+      {
+        "id": "KNOWLEDGE_BASED_WITH_TEMPERATURE_DIMENSION_TEMPERATURE",
+        "recommendationDimension": {
+          "id": "DIMENSION_TEMPERATURE",
+          "label": "TEMPERATURE",
+          "ranges": [
+            {
+              "rangeType": "NUMERIC",
+              "id": "RANGE_COLD",
+              "label": "Kalt",
+              "lowerBound": 0.0,
+              "upperBound": 10.0
+            },
+            {
+              "rangeType": "NUMERIC",
+              "id": "RANGE_MIDDLE",
+              "label": "Mittel",
+              "lowerBound": 11.0,
+              "upperBound": 20.0
+            },
+            {
+              "rangeType": "NUMERIC",
+              "id": "RANGE_WARM",
+              "label": "Warm",
+              "lowerBound": 21.0,
+              "upperBound": 30.0
+            }
+          ],
+          "dimensionType": "ENVIRONMENTAL_PARAMETER",
+          "parameterType": "NUMERIC",
+          "environmentalParameter": {
+            "parameterType": "NUMERIC",
+            "id": "numeric-1",
+            "label": "Numeric ENV Parameter",
+            "description": "",
+            "source": "http://localhost:8085/parameters/numeric-1",
+            "bpmsAttributeId": "",
+            "visibility": "true",
+            "defaultValue": 42.0
+          }
+        },
+        "weight": 3.4
+      }
+    ]
+  },
+  {
+    "id": "CONTENT_BASED",
+    "name": "Similar Activities ",
+    "description": "Empfehlungen basierend auf positiv bewerteten ähnlichen Aufgaben.",
+    "url": "http://localhost:8088/recommendation/content-based",
+    "recommendationType": "CONTENT_BASED",
+    "dimensions": [
+
+    ]
+  },
+  {
+    "id": "COLLABORATIVE",
+    "name": "Similar Users ",
+    "description": "Aufgaben, welche auch anderen Nutzenden gefallen haben.",
+    "url": "http://localhost:8088/recommendation/collaborative",
+    "recommendationType": "COLLABORATIVE",
+    "dimensions": [
+
+    ]
+  }
+]

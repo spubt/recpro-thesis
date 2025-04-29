@@ -1,0 +1,74 @@
+[
+  {
+    "id": "execute-event_date",
+    "activity": {
+      "id":"execute","name":"Event durchführen","description":null,"bpmsElementId":"execute","roles":[]
+    },
+    "parameter":  {
+      "id": "event_date",
+      "label": "Datum",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "DATE",
+      "defaultValue": "2025-03-19T11:27:08.867494Z"
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "execute-event_duration",
+    "activity": {
+      "id":"execute","name":"Event durchführen","description":null,"bpmsElementId":"execute","roles":[]
+    },
+    "parameter":  {
+      "id": "event_duration",
+      "label": "Dauer (in Stunden)",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 12
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "execute-estimated_participants",
+    "activity": {
+      "id":"execute","name":"Event durchführen","description":null,"bpmsElementId":"execute","roles":[]
+    },
+    "parameter":  {
+      "id": "estimated_participants",
+      "label": "Teilnehmeranzahl",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 10
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  },
+  {
+    "id": "execute-participants",
+    "activity": {
+      "id":"execute","name":"Event durchführen","description":null,"bpmsElementId":"execute","roles":[]
+    },
+    "parameter": {
+      "id": "participants",
+      "label": "Anzahl Teilnehmende",
+      "description": "",
+      "bpmsAttributeId": "",
+      "parameterType": "NUMERIC",
+      "defaultValue": 0
+    },
+    "parameterConfigurationType":"INPUT",
+    "position":"1",
+    "width":"12",
+    "height":0
+  }
+]

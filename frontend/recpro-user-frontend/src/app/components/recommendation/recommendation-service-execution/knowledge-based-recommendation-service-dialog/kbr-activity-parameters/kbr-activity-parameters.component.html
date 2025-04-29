@@ -1,0 +1,100 @@
+<div class="row">
+  <div class="col-2">
+    <h3>Add criteria:</h3>
+  </div>
+  <div class="col-8">
+    <mat-form-field class="col-12" appearance="outline">
+      <mat-label>Select Criteria</mat-label>
+      <mat-select [(ngModel)]="selectedCriteria">
+        <mat-option *ngFor="let actParam of recommendationServiceInstance.actParamUserCriteria" [value]="actParam">
+          {{ actParam.parameter.label }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="col-2">
+    <button mat-raised-button (click)="addCriteria()" style="height: 56px; gap: 8px; justify-content: center; align-items: center">
+      <mat-icon>add</mat-icon>
+      Add
+    </button>
+  </div>
+</div>
+<div class="row">
+  <div class="sorting-table">
+    <table mat-table [dataSource]="tableDataSource" matSort class="mat-elevation-z8 demo-table" style="max-height: 95%">
+
+      <!-- Parameter Column -->
+      <ng-container matColumnDef="parameter">
+        <th mat-header-cell *matHeaderCellDef> Parameter </th>
+        <td mat-cell *matCellDef="let row"> {{row.userCriteria.parameter.label}}</td>
+      </ng-container>
+
+      <!-- Comparison Column -->
+      <ng-container matColumnDef="comparison">
+        <th mat-header-cell *matHeaderCellDef> Comparison </th>
+        <td mat-cell *matCellDef="let row">
+          <mat-form-field>
+            <mat-select [(ngModel)]="row.comparisonType">
+              <mat-option *ngFor="let option of comparisonOptions" [value]="option.value">
+                {{ option.label }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </ng-container>
+
+      <!-- Value Column -->
+      <ng-container matColumnDef="value">
+        <th mat-header-cell *matHeaderCellDef> Value </th>
+        <td mat-cell *matCellDef="let row">
+          <div [ngSwitch]="row.parameterType">
+            <div *ngSwitchCase="ParameterType.BINARY">
+
+            </div>
+            <div *ngSwitchCase="ParameterType.DATE">
+
+            </div>
+            <div *ngSwitchCase="ParameterType.NUMERIC">
+              <mat-form-field >
+                <input matInput type="number" [(ngModel)]="row.value"
+                       [min]="row.minValue" [max]="row.maxValue"
+                       placeholder="Enter value">
+              </mat-form-field>
+            </div>
+            <div *ngSwitchCase="ParameterType.TEXTUAL">
+              <mat-form-field >
+                <input matInput [(ngModel)]="row.value"
+                       placeholder="Enter value">
+              </mat-form-field>
+            </div>
+          </div>
+
+        </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="delete">
+        <th mat-header-cell *matHeaderCellDef> Delete </th>
+        <td mat-cell *matCellDef="let row">
+          <button mat-menu-item (click)="deleteUserCriteriaInstance(row)">
+            <mat-icon class="material-icons">delete</mat-icon>
+          </button>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr
+        *matRowDef="let row; columns: displayedColumns;"
+        mat-row
+      ></tr>
+
+      <!-- Row shown when there is no matching data. -->
+      <tr class="mat-row" *matNoDataRow>
+        <td class="mat-cell" colspan="4">No data."</td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+
+
